@@ -1,25 +1,62 @@
 # PARCO_D1
 
-!! THE .MTX FILES OF THE CHOSEN MATRICES OR THEIR COMPRESSED ZIPS EXCEED 25 MB, THUS THE ONLY WAY TO RE-RUN THE EXPERIMENTS IS DOWNLOAD THIS FOLDER, DOWNLOAD THE MATRICES.TAR.GZ FROM THE FOLLOWING LINKS TO THE SUITE SPARSE MATRIX COLLECTION , DECOMPRESS THE ARCHIVE AND ADD THE .MTX FILE IN THE DOWNLOADED FOLDER FROM THIS REPOSITORY !!
+> **Note:**  
+> The `.mtx` files of the chosen matrices or their compressed ZIPs exceed 25 MB.  
+> Therefore, the only way to re-run the experiments is to:
+> 1. Download this folder.
+> 2. Download the `matrices.tar.gz` archives from the following Suite Sparse Matrix Collection links.
+> 3. Decompress the archives.
+> 4. Add the `.mtx` files into the folder downloaded from this repository.
 
-1) http://sparse.tamu.edu/JGD_GL7d/GL7d17
-2) http://sparse.tamu.edu/JGD_GL7d/GL7d21
-3) http://sparse.tamu.edu/CEMW/t2em
-4) http://sparse.tamu.edu/Mittelmann/rail2586
-5) http://sparse.tamu.edu/SNAP/wiki-talk-temporal
-6) http://sparse.tamu.edu/TKK/engine
-7) http://sparse.tamu.edu/DIMACS10/kron_g500-logn16
-8) http://sparse.tamu.edu/JGD_Relat/rel9
+## Matrix download links
 
-1) TO RUN THE  FULL EXPERIMENTS
-   -Decompress all the matrices .tar.gz files using the tar command: tar -xzf wiki-talk-temporal.tar.gz, tar -xzf GL7d17.tar.gz, tar -xzf GL7d21.tar.gz, ... tar -xzf rel9.tar.gz
-   -find the <name of the matrix>.mtx files and copy paste it in the folder downloaded from this repository
-   -upload the folder on the cluster and use the qsub submit_close.pbs or submit_spread.pbs to run the version with the desired binding scheme
-   -at test completion two files will be generated: risultati_1_close.txt and risultati_2_close.txt if run in close mode or risultati_1_spread.txt and risultati_2_spread.txt if in spread one.
-   
-2) TO PLOT THE STRONG SCALING AND THE EFFICIENCY
-   -run plot_scaling.py  with one of the following files as a parameter to get the plots (strong scaling and efficiency) as a png of those set of matrices:  risultati_1_close.txt / risultati_2_close.txt /   risultati_1_spread.txt / risultati_2_spread.txt
-   -at completion the script will generate 2 images containing the plots for the specified program
-3)    
-   
-   
+1. [GL7d17](http://sparse.tamu.edu/JGD_GL7d/GL7d17)  
+2. [GL7d21](http://sparse.tamu.edu/JGD_GL7d/GL7d21)  
+3. [t2em](http://sparse.tamu.edu/CEMW/t2em)  
+4. [rail2586](http://sparse.tamu.edu/Mittelmann/rail2586)  
+5. [wiki-talk-temporal](http://sparse.tamu.edu/SNAP/wiki-talk-temporal)  
+6. [engine](http://sparse.tamu.edu/TKK/engine)  
+7. [kron_g500-logn16](http://sparse.tamu.edu/DIMACS10/kron_g500-logn16)  
+8. [rel9](http://sparse.tamu.edu/JGD_Relat/rel9)  
+
+## Instructions
+
+### 1) Run the full experiments
+
+- Decompress all the `.tar.gz` files using the tar command, for example:  
+  ```bash
+  tar -xzf wiki-talk-temporal.tar.gz
+  tar -xzf GL7d17.tar.gz
+  tar -xzf GL7d21.tar.gz
+  # ... repeat for other matrices
+  tar -xzf rel9.tar.gz
+  ```
+- Find the `<matrix_name>.mtx` files and copy them into the folder you downloaded from this repository.
+- Upload the folder to the cluster and run:  
+  ```bash
+  qsub submit_close.pbs
+  ```
+  or  
+  ```bash
+  qsub submit_spread.pbs
+  ```
+  depending on the binding scheme you want to use.
+- After the test completes, two output files will be generated:  
+  - `risultati_1_close.txt` and `risultati_2_close.txt` if run in close mode.  
+  - `risultati_1_spread.txt` and `risultati_2_spread.txt` if run in spread mode.
+
+### 2) Plot strong scaling and efficiency
+
+- Run the plotting script with one of the result files as parameter to generate PNG plots:  
+  ```bash
+  python plot_scaling.py risultati_1_close.txt
+  ```
+- The script will generate two images containing the strong scaling and efficiency plots for the given data.
+
+### 3) Run profiling tests
+
+- On the cluster, run one of the profiling jobs by submitting the respective PBS file, for example:  
+  ```bash
+  qsub submit_perf_albus_close.pbs
+  ```
+- Upon completion, a folder named like `perf_out_*_*/parcoD1_*_*` will be created, containing performance analysis results of that kernel on all matrix datasets with the specified binding mode. The pbs files are : submit_perf_albus_close.pbs, submit_perf_albus_spread.pbs, submit_perf_auto, submit_perf_dynamic, submit_perf_guided, submit_perf_static
