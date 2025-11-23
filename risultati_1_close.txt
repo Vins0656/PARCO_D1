@@ -1,0 +1,252 @@
+Matrix: wiki-talk-temporal.mtx
+Threads: 1 | Iterations: 10 | Chunk: 1
+1140149 1140149 3309592
+Average time OMP static (tot_dur/: 200): 9580.7 µs
+Average time OMP dynamic (tot_dur/: 200): 9591.24 µs
+Average time OMP guided ( tot_dur/: 200): 9659.81 µs
+Average time OMP auto (tot_dur/: 200): 9496.11 µs
+Average time ALBUS (tot_dur/: 200): 9991.13 µs
+
+Matrix: wiki-talk-temporal.mtx
+Threads: 2 | Iterations: 10 | Chunk: 1
+1140149 1140149 3309592
+Average time OMP static (tot_dur/: 200): 5084.02 µs
+Average time OMP dynamic (tot_dur/: 200): 4766.99 µs
+Average time OMP guided ( tot_dur/: 200): 8206.1 µs
+Average time OMP auto (tot_dur/: 200): 8052.61 µs
+Average time ALBUS (tot_dur/: 200): 7152.64 µs
+
+Matrix: wiki-talk-temporal.mtx
+Threads: 4 | Iterations: 10 | Chunk: 1
+1140149 1140149 3309592
+Average time OMP static (tot_dur/: 300): 2745.76 µs
+Average time OMP dynamic (tot_dur/: 300): 2465.81 µs
+Average time OMP guided ( tot_dur/: 300): 7272.89 µs
+Average time OMP auto (tot_dur/: 300): 7178.23 µs
+Average time ALBUS (tot_dur/: 300): 5938.91 µs
+
+Matrix: wiki-talk-temporal.mtx
+Threads: 8 | Iterations: 10 | Chunk: 1
+1140149 1140149 3309592
+Average time OMP static (tot_dur/: 300): 1629.05 µs
+Average time OMP dynamic (tot_dur/: 300): 1273.76 µs
+Average time OMP guided ( tot_dur/: 300): 6459.72 µs
+Average time OMP auto (tot_dur/: 300): 6459.75 µs
+Average time ALBUS (tot_dur/: 300): 4843.65 µs
+
+Matrix: wiki-talk-temporal.mtx
+Threads: 16 | Iterations: 10 | Chunk: 1
+1140149 1140149 3309592
+Average time OMP static (tot_dur/: 500): 1093.43 µs
+Average time OMP dynamic (tot_dur/: 500): 838.387 µs
+Average time OMP guided ( tot_dur/: 500): 5182.93 µs
+Average time OMP auto (tot_dur/: 500): 5393.12 µs
+Average time ALBUS (tot_dur/: 500): 3598.12 µs
+
+Matrix: wiki-talk-temporal.mtx
+Threads: 32 | Iterations: 10 | Chunk: 1
+1140149 1140149 3309592
+Average time OMP static (tot_dur/: 600): 834.658 µs
+Average time OMP dynamic (tot_dur/: 600): 762.9 µs
+Average time OMP guided ( tot_dur/: 600): 4499.77 µs
+Average time OMP auto (tot_dur/: 600): 4574.68 µs
+Average time ALBUS (tot_dur/: 600): 2344.15 µs
+
+Matrix: wiki-talk-temporal.mtx
+Threads: 64 | Iterations: 10 | Chunk: 1
+1140149 1140149 3309592
+Average time OMP static (tot_dur/: 900): 683.524 µs
+Average time OMP dynamic (tot_dur/: 900): 829.139 µs
+Average time OMP guided ( tot_dur/: 900): 3758.8 µs
+Average time OMP auto (tot_dur/: 900): 3762.96 µs
+Average time ALBUS (tot_dur/: 900): 1327.86 µs
+
+Matrix: kron_g500-logn16.mtx
+Threads: 1 | Iterations: 10 | Chunk: 1
+65536 65536 2456398
+Average time OMP static (tot_dur/: 200): 2380.9 µs
+Average time OMP dynamic (tot_dur/: 200): 2368.8 µs
+Average time OMP guided ( tot_dur/: 200): 2367.27 µs
+Average time OMP auto (tot_dur/: 200): 2338.42 µs
+Average time ALBUS (tot_dur/: 200): 2378.2 µs
+
+Matrix: kron_g500-logn16.mtx
+Threads: 2 | Iterations: 10 | Chunk: 1
+65536 65536 2456398
+Average time OMP static (tot_dur/: 200): 1206.27 µs
+Average time OMP dynamic (tot_dur/: 200): 1193.59 µs
+Average time OMP guided ( tot_dur/: 200): 1207.12 µs
+Average time OMP auto (tot_dur/: 200): 1559.33 µs
+Average time ALBUS (tot_dur/: 200): 1349.3 µs
+
+Matrix: kron_g500-logn16.mtx
+Threads: 4 | Iterations: 10 | Chunk: 1
+65536 65536 2456398
+Average time OMP static (tot_dur/: 300): 634.42 µs
+Average time OMP dynamic (tot_dur/: 300): 640.437 µs
+Average time OMP guided ( tot_dur/: 300): 637.934 µs
+Average time OMP auto (tot_dur/: 300): 895.718 µs
+Average time ALBUS (tot_dur/: 300): 820.627 µs
+
+Matrix: kron_g500-logn16.mtx
+Threads: 8 | Iterations: 10 | Chunk: 1
+65536 65536 2456398
+Average time OMP static (tot_dur/: 300): 325.243 µs
+Average time OMP dynamic (tot_dur/: 300): 341.851 µs
+Average time OMP guided ( tot_dur/: 300): 334.877 µs
+Average time OMP auto (tot_dur/: 300): 478.864 µs
+Average time ALBUS (tot_dur/: 300): 500.736 µs
+
+Matrix: kron_g500-logn16.mtx
+Threads: 16 | Iterations: 10 | Chunk: 1
+65536 65536 2456398
+Average time OMP static (tot_dur/: 500): 151.585 µs
+Average time OMP dynamic (tot_dur/: 500): 186.998 µs
+Average time OMP guided ( tot_dur/: 500): 176.376 µs
+Average time OMP auto (tot_dur/: 500): 224.47 µs
+Average time ALBUS (tot_dur/: 500): 305.944 µs
+
+Matrix: kron_g500-logn16.mtx
+Threads: 32 | Iterations: 10 | Chunk: 1
+65536 65536 2456398
+Average time OMP static (tot_dur/: 600): 85.1564 µs
+Average time OMP dynamic (tot_dur/: 600): 128.291 µs
+Average time OMP guided ( tot_dur/: 600): 124.158 µs
+Average time OMP auto (tot_dur/: 600): 109.116 µs
+Average time ALBUS (tot_dur/: 600): 202.757 µs
+
+Matrix: kron_g500-logn16.mtx
+Threads: 64 | Iterations: 10 | Chunk: 1
+65536 65536 2456398
+Average time OMP static (tot_dur/: 900): 54.7672 µs
+Average time OMP dynamic (tot_dur/: 900): 103.559 µs
+Average time OMP guided ( tot_dur/: 900): 100.028 µs
+Average time OMP auto (tot_dur/: 900): 66.6892 µs
+Average time ALBUS (tot_dur/: 900): 130.891 µs
+
+Matrix: t2em.mtx
+Threads: 1 | Iterations: 10 | Chunk: 1
+921632 921632 4590832
+Average time OMP static (tot_dur/: 200): 5371.53 µs
+Average time OMP dynamic (tot_dur/: 200): 5423.89 µs
+Average time OMP guided ( tot_dur/: 200): 6392.7 µs
+Average time OMP auto (tot_dur/: 200): 5807.89 µs
+Average time ALBUS (tot_dur/: 200): 6069.83 µs
+
+Matrix: t2em.mtx
+Threads: 2 | Iterations: 10 | Chunk: 1
+921632 921632 4590832
+Average time OMP static (tot_dur/: 200): 2830.09 µs
+Average time OMP dynamic (tot_dur/: 200): 2818.24 µs
+Average time OMP guided ( tot_dur/: 200): 3214.69 µs
+Average time OMP auto (tot_dur/: 200): 2930.16 µs
+Average time ALBUS (tot_dur/: 200): 3063.68 µs
+
+Matrix: t2em.mtx
+Threads: 4 | Iterations: 10 | Chunk: 1
+921632 921632 4590832
+Average time OMP static (tot_dur/: 300): 1488.17 µs
+Average time OMP dynamic (tot_dur/: 300): 1474.53 µs
+Average time OMP guided ( tot_dur/: 300): 1692.93 µs
+Average time OMP auto (tot_dur/: 300): 1554.61 µs
+Average time ALBUS (tot_dur/: 300): 1636.1 µs
+
+Matrix: t2em.mtx
+Threads: 8 | Iterations: 10 | Chunk: 1
+921632 921632 4590832
+Average time OMP static (tot_dur/: 300): 778.681 µs
+Average time OMP dynamic (tot_dur/: 300): 772.338 µs
+Average time OMP guided ( tot_dur/: 300): 875.973 µs
+Average time OMP auto (tot_dur/: 300): 814.155 µs
+Average time ALBUS (tot_dur/: 300): 848.291 µs
+
+Matrix: t2em.mtx
+Threads: 16 | Iterations: 10 | Chunk: 1
+921632 921632 4590832
+Average time OMP static (tot_dur/: 500): 424.67 µs
+Average time OMP dynamic (tot_dur/: 500): 423.699 µs
+Average time OMP guided ( tot_dur/: 500): 474.178 µs
+Average time OMP auto (tot_dur/: 500): 436.113 µs
+Average time ALBUS (tot_dur/: 500): 434.566 µs
+
+Matrix: t2em.mtx
+Threads: 32 | Iterations: 10 | Chunk: 1
+921632 921632 4590832
+Average time OMP static (tot_dur/: 600): 242.635 µs
+Average time OMP dynamic (tot_dur/: 600): 308.694 µs
+Average time OMP guided ( tot_dur/: 600): 279.09 µs
+Average time OMP auto (tot_dur/: 600): 238.805 µs
+Average time ALBUS (tot_dur/: 600): 231.853 µs
+
+Matrix: t2em.mtx
+Threads: 64 | Iterations: 10 | Chunk: 1
+921632 921632 4590832
+Average time OMP static (tot_dur/: 900): 122.298 µs
+Average time OMP dynamic (tot_dur/: 900): 277.289 µs
+Average time OMP guided ( tot_dur/: 900): 281.147 µs
+Average time OMP auto (tot_dur/: 900): 121.499 µs
+Average time ALBUS (tot_dur/: 900): 229.541 µs
+
+Matrix: engine.mtx
+Threads: 1 | Iterations: 10 | Chunk: 1
+143571 143571 2424822
+Average time OMP static (tot_dur/: 200): 2374.84 µs
+Average time OMP dynamic (tot_dur/: 200): 2375.13 µs
+Average time OMP guided ( tot_dur/: 200): 2410.59 µs
+Average time OMP auto (tot_dur/: 200): 2348.03 µs
+Average time ALBUS (tot_dur/: 200): 2591.22 µs
+
+Matrix: engine.mtx
+Threads: 2 | Iterations: 10 | Chunk: 1
+143571 143571 2424822
+Average time OMP static (tot_dur/: 200): 1220.33 µs
+Average time OMP dynamic (tot_dur/: 200): 1206.91 µs
+Average time OMP guided ( tot_dur/: 200): 1209.85 µs
+Average time OMP auto (tot_dur/: 200): 1481.24 µs
+Average time ALBUS (tot_dur/: 200): 1498.63 µs
+
+Matrix: engine.mtx
+Threads: 4 | Iterations: 10 | Chunk: 1
+143571 143571 2424822
+Average time OMP static (tot_dur/: 300): 654.922 µs
+Average time OMP dynamic (tot_dur/: 300): 660.648 µs
+Average time OMP guided ( tot_dur/: 300): 652.541 µs
+Average time OMP auto (tot_dur/: 300): 1022.21 µs
+Average time ALBUS (tot_dur/: 300): 806.531 µs
+
+Matrix: engine.mtx
+Threads: 8 | Iterations: 10 | Chunk: 1
+143571 143571 2424822
+Average time OMP static (tot_dur/: 300): 342.495 µs
+Average time OMP dynamic (tot_dur/: 300): 350.563 µs
+Average time OMP guided ( tot_dur/: 300): 345.5 µs
+Average time OMP auto (tot_dur/: 300): 752.203 µs
+Average time ALBUS (tot_dur/: 300): 421.466 µs
+
+Matrix: engine.mtx
+Threads: 16 | Iterations: 10 | Chunk: 1
+143571 143571 2424822
+Average time OMP static (tot_dur/: 500): 179.554 µs
+Average time OMP dynamic (tot_dur/: 500): 185.705 µs
+Average time OMP guided ( tot_dur/: 500): 184.085 µs
+Average time OMP auto (tot_dur/: 500): 445.415 µs
+Average time ALBUS (tot_dur/: 500): 212.114 µs
+
+Matrix: engine.mtx
+Threads: 32 | Iterations: 10 | Chunk: 1
+143571 143571 2424822
+Average time OMP static (tot_dur/: 600): 99.1431 µs
+Average time OMP dynamic (tot_dur/: 600): 135.96 µs
+Average time OMP guided ( tot_dur/: 600): 120.727 µs
+Average time OMP auto (tot_dur/: 600): 241.433 µs
+Average time ALBUS (tot_dur/: 600): 126.772 µs
+
+Matrix: engine.mtx
+Threads: 64 | Iterations: 10 | Chunk: 1
+143571 143571 2424822
+Average time OMP static (tot_dur/: 900): 69.0105 µs
+Average time OMP dynamic (tot_dur/: 900): 115.627 µs
+Average time OMP guided ( tot_dur/: 900): 122.563 µs
+Average time OMP auto (tot_dur/: 900): 127.631 µs
+Average time ALBUS (tot_dur/: 900): 79.9791 µs
+
