@@ -1,0 +1,834 @@
+=== Matrix: t2em.mtx ===
+--- EXE=parcoD1_guided.exe T=1 ---
+921632 921632 4590832
+Average time OMP guided ( tot_dur/: 200): 5910.1 µs
+921632 921632 4590832
+Average time OMP guided ( tot_dur/: 200): 5904.14 µs
+921632 921632 4590832
+Average time OMP guided ( tot_dur/: 200): 5911.26 µs
+921632 921632 4590832
+Average time OMP guided ( tot_dur/: 200): 5979.55 µs
+921632 921632 4590832
+Average time OMP guided ( tot_dur/: 200): 6051.42 µs
+
+ Performance counter stats for './parcoD1_guided.exe t2em.mtx' (5 runs):
+
+     6,622,009,448      cycles:u                  #    3.038 GHz                      ( +-  0.09% )
+    22,986,938,108      instructions:u            #    3.47  insn per cycle           ( +-  0.00% )
+     3,610,996,478      branches:u                # 1656.747 M/sec                    ( +-  0.00% )
+         1,226,653      branch-misses:u           #    0.03% of all branches          ( +-  0.13% )
+       229,866,481      cache-references:u        #  105.464 M/sec                    ( +-  0.65% )
+        59,239,204      cache-misses:u            #   25.771 % of all cache refs      ( +-  2.15% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          2,179.57 msec task-clock:u              #    0.996 CPUs utilized            ( +-  0.57% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             7,924      page-faults:u             #    0.004 M/sec                    ( +-  3.28% )
+
+            2.1889 +- 0.0122 seconds time elapsed  ( +-  0.56% )
+
+--- EXE=parcoD1_guided.exe T=2 ---
+921632 921632 4590832
+thread 0x2b541f72fd00 -> 0
+thread 0x2b5420e34700 -> 1
+Average time OMP guided ( tot_dur/: 200): 2969.76 µs
+921632 921632 4590832
+thread 0x2b5d97e48d00 -> 0
+thread 0x2b5d9954d700 -> 1
+Average time OMP guided ( tot_dur/: 200): 3068.45 µs
+921632 921632 4590832
+thread 0x2b9efd7fad00 -> 0
+thread 0x2b9efeeff700 -> 1
+Average time OMP guided ( tot_dur/: 200): 3134.83 µs
+921632 921632 4590832
+thread 0x2ba2adcecd00 -> 0
+thread 0x2ba2af3f1700 -> 1
+Average time OMP guided ( tot_dur/: 200): 3132.13 µs
+921632 921632 4590832
+thread 0x2b7ed6764d00 -> 0
+thread 0x2b7ed7e69700 -> 1
+Average time OMP guided ( tot_dur/: 200): 3132.95 µs
+
+ Performance counter stats for './parcoD1_guided.exe t2em.mtx' (5 runs):
+
+     6,622,728,034      cycles:u                  #    2.986 GHz                      ( +-  0.14% )
+    22,990,471,323      instructions:u            #    3.47  insn per cycle           ( +-  0.00% )
+     3,611,972,664      branches:u                # 1628.420 M/sec                    ( +-  0.00% )
+         1,234,585      branch-misses:u           #    0.03% of all branches          ( +-  0.09% )
+       229,267,844      cache-references:u        #  103.363 M/sec                    ( +-  0.48% )
+        57,537,598      cache-misses:u            #   25.096 % of all cache refs      ( +-  2.41% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          2,218.08 msec task-clock:u              #    1.385 CPUs utilized            ( +-  1.17% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,651      page-faults:u             #    0.003 M/sec                    ( +-  1.81% )
+
+            1.6017 +- 0.0237 seconds time elapsed  ( +-  1.48% )
+
+--- EXE=parcoD1_guided.exe T=4 ---
+921632 921632 4590832
+thread 0x2ad9e28cad00 -> 0
+thread 0x2ad9e3fcf700 -> 1
+thread 0x2ad9e41d0700 -> 2
+thread 0x2ad9e43d1700 -> 3
+Average time OMP guided ( tot_dur/: 300): 1579.15 µs
+921632 921632 4590832
+thread 0x2b43f16ebd00 -> 0
+thread 0x2b43f2df0700 -> 1
+thread 0x2b43f2ff1700 -> 2
+thread 0x2b43f31f2700 -> 3
+Average time OMP guided ( tot_dur/: 300): 1589.38 µs
+921632 921632 4590832
+thread 0x2b6e4cca4d00 -> 0
+thread 0x2b6e4e3a9700 -> 1
+thread 0x2b6e4e5aa700 -> 2
+thread 0x2b6e4e7ab700 -> 3
+Average time OMP guided ( tot_dur/: 300): 1575.89 µs
+921632 921632 4590832
+thread 0x2acf6eba3d00 -> 0
+thread 0x2acf702a8700 -> 1
+thread 0x2acf704a9700 -> 2
+thread 0x2acf706aa700 -> 3
+Average time OMP guided ( tot_dur/: 300): 1586.47 µs
+921632 921632 4590832
+thread 0x2b6cb4dbfd00 -> 0
+thread 0x2b6cb64c4700 -> 1
+thread 0x2b6cb66c5700 -> 2
+thread 0x2b6cb68c6700 -> 3
+Average time OMP guided ( tot_dur/: 300): 1507.14 µs
+
+ Performance counter stats for './parcoD1_guided.exe t2em.mtx' (5 runs):
+
+     8,586,466,401      cycles:u                  #    3.009 GHz                      ( +-  0.14% )
+    30,449,685,446      instructions:u            #    3.55  insn per cycle           ( +-  0.00% )
+     4,534,514,718      branches:u                # 1589.173 M/sec                    ( +-  0.00% )
+         1,377,220      branch-misses:u           #    0.03% of all branches          ( +-  0.10% )
+       335,734,381      cache-references:u        #  117.662 M/sec                    ( +-  0.46% )
+        85,899,936      cache-misses:u            #   25.586 % of all cache refs      ( +-  1.60% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          2,853.38 msec task-clock:u              #    2.008 CPUs utilized            ( +-  0.81% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,252      page-faults:u             #    0.002 M/sec                    ( +-  3.08% )
+
+            1.4212 +- 0.0128 seconds time elapsed  ( +-  0.90% )
+
+--- EXE=parcoD1_guided.exe T=8 ---
+921632 921632 4590832
+thread 0x2b78c2db6d00 -> 0
+thread 0x2b78c44bb700 -> 1
+thread 0x2b78c46bc700 -> 2
+thread 0x2b78c48bd700 -> 3
+thread 0x2b78c4abe700 -> 4
+thread 0x2b78c4cbf700 -> 5
+thread 0x2b78c4ec0700 -> 6
+thread 0x2b78c50c1700 -> 7
+Average time OMP guided ( tot_dur/: 300): 810.893 µs
+921632 921632 4590832
+thread 0x2ac7d3a70d00 -> 0
+thread 0x2ac7d5175700 -> 1
+thread 0x2ac7d5376700 -> 2
+thread 0x2ac7d5577700 -> 3
+thread 0x2ac7d5778700 -> 4
+thread 0x2ac7d5979700 -> 5
+thread 0x2ac7d5b7a700 -> 6
+thread 0x2ac7d5d7b700 -> 7
+Average time OMP guided ( tot_dur/: 300): 772.808 µs
+921632 921632 4590832
+thread 0x2b28659fbd00 -> 0
+thread 0x2b2867100700 -> 1
+thread 0x2b2867301700 -> 2
+thread 0x2b2867502700 -> 3
+thread 0x2b2867703700 -> 4
+thread 0x2b2867904700 -> 5
+thread 0x2b2867b05700 -> 6
+thread 0x2b2867d06700 -> 7
+Average time OMP guided ( tot_dur/: 300): 811.864 µs
+921632 921632 4590832
+thread 0x2b8730899d00 -> 0
+thread 0x2b8731f9e700 -> 1
+thread 0x2b873219f700 -> 2
+thread 0x2b87323a0700 -> 3
+thread 0x2b87325a1700 -> 4
+thread 0x2b87327a2700 -> 5
+thread 0x2b87329a3700 -> 6
+thread 0x2b8732ba4700 -> 7
+Average time OMP guided ( tot_dur/: 300): 805.066 µs
+921632 921632 4590832
+thread 0x2ae783b82d00 -> 0
+thread 0x2ae785287700 -> 1
+thread 0x2ae785488700 -> 2
+thread 0x2ae785689700 -> 3
+thread 0x2ae78588a700 -> 4
+thread 0x2ae785a8b700 -> 5
+thread 0x2ae785c8c700 -> 6
+thread 0x2ae785e8d700 -> 7
+Average time OMP guided ( tot_dur/: 300): 809.797 µs
+
+ Performance counter stats for './parcoD1_guided.exe t2em.mtx' (5 runs):
+
+     8,792,125,414      cycles:u                  #    3.025 GHz                      ( +-  0.25% )
+    30,465,033,733      instructions:u            #    3.47  insn per cycle           ( +-  0.00% )
+     4,538,767,044      branches:u                # 1561.402 M/sec                    ( +-  0.01% )
+         1,401,296      branch-misses:u           #    0.03% of all branches          ( +-  0.07% )
+       338,982,830      cache-references:u        #  116.615 M/sec                    ( +-  0.44% )
+        82,683,583      cache-misses:u            #   24.392 % of all cache refs      ( +-  2.10% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          2,906.85 msec task-clock:u              #    2.458 CPUs utilized            ( +-  0.95% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,474      page-faults:u             #    0.002 M/sec                    ( +-  2.29% )
+
+            1.1828 +- 0.0177 seconds time elapsed  ( +-  1.49% )
+
+--- EXE=parcoD1_guided.exe T=16 ---
+921632 921632 4590832
+thread 0x2ba19aa9fd00 -> 0
+thread 0x2ba19c1a4700 -> 1
+thread 0x2ba19c3a5700 -> 2
+thread 0x2ba19c5a6700 -> 3
+thread 0x2ba19c7a7700 -> 4
+thread 0x2ba19c9a8700 -> 5
+thread 0x2ba19cba9700 -> 6
+thread 0x2ba19cdaa700 -> 7
+thread 0x2ba19cfab700 -> 8
+thread 0x2ba19d1ac700 -> 9
+thread 0x2ba19d3ad700 -> 10
+thread 0x2ba19d5ae700 -> 11
+thread 0x2ba19d7af700 -> 12
+thread 0x2ba19d9b0700 -> 13
+thread 0x2ba19dbb1700 -> 14
+thread 0x2ba19ddb2700 -> 15
+Average time OMP guided ( tot_dur/: 500): 417.564 µs
+921632 921632 4590832
+thread 0x2b5e453a5d00 -> 0
+thread 0x2b5e46aaa700 -> 1
+thread 0x2b5e46cab700 -> 2
+thread 0x2b5e46eac700 -> 3
+thread 0x2b5e470ad700 -> 4
+thread 0x2b5e472ae700 -> 5
+thread 0x2b5e474af700 -> 6
+thread 0x2b5e476b0700 -> 7
+thread 0x2b5e478b1700 -> 8
+thread 0x2b5e47ab2700 -> 9
+thread 0x2b5e47cb3700 -> 10
+thread 0x2b5e47eb4700 -> 11
+thread 0x2b5e480b5700 -> 12
+thread 0x2b5e482b6700 -> 13
+thread 0x2b5e484b7700 -> 14
+thread 0x2b5e486b8700 -> 15
+Average time OMP guided ( tot_dur/: 500): 417.921 µs
+921632 921632 4590832
+thread 0x2ab4e4267d00 -> 0
+thread 0x2ab4e596c700 -> 1
+thread 0x2ab4e5b6d700 -> 2
+thread 0x2ab4e5d6e700 -> 3
+thread 0x2ab4e5f6f700 -> 4
+thread 0x2ab4e6170700 -> 5
+thread 0x2ab4e6371700 -> 6
+thread 0x2ab4e6572700 -> 7
+thread 0x2ab4e6773700 -> 8
+thread 0x2ab4e6974700 -> 9
+thread 0x2ab4e6b75700 -> 10
+thread 0x2ab4e6d76700 -> 11
+thread 0x2ab4e6f77700 -> 12
+thread 0x2ab4e7178700 -> 13
+thread 0x2ab4e7379700 -> 14
+thread 0x2ab4e757a700 -> 15
+Average time OMP guided ( tot_dur/: 500): 415.231 µs
+921632 921632 4590832
+thread 0x2ab986f05d00 -> 0
+thread 0x2ab98860a700 -> 1
+thread 0x2ab98880b700 -> 2
+thread 0x2ab988a0c700 -> 3
+thread 0x2ab988c0d700 -> 4
+thread 0x2ab988e0e700 -> 5
+thread 0x2ab98900f700 -> 6
+thread 0x2ab989210700 -> 7
+thread 0x2ab989411700 -> 8
+thread 0x2ab989612700 -> 9
+thread 0x2ab989813700 -> 10
+thread 0x2ab989a14700 -> 11
+thread 0x2ab989c15700 -> 12
+thread 0x2ab989e16700 -> 13
+thread 0x2ab98a017700 -> 14
+thread 0x2ab98a218700 -> 15
+Average time OMP guided ( tot_dur/: 500): 420.665 µs
+921632 921632 4590832
+thread 0x2afef35bdd00 -> 0
+thread 0x2afef4cc2700 -> 1
+thread 0x2afef4ec3700 -> 2
+thread 0x2afef50c4700 -> 3
+thread 0x2afef52c5700 -> 4
+thread 0x2afef54c6700 -> 5
+thread 0x2afef56c7700 -> 6
+thread 0x2afef58c8700 -> 7
+thread 0x2afef5ac9700 -> 8
+thread 0x2afef5cca700 -> 9
+thread 0x2afef5ecb700 -> 10
+thread 0x2afef60cc700 -> 11
+thread 0x2afef62cd700 -> 12
+thread 0x2afef64ce700 -> 13
+thread 0x2afef66cf700 -> 14
+thread 0x2afef68d0700 -> 15
+Average time OMP guided ( tot_dur/: 500): 416.61 µs
+
+ Performance counter stats for './parcoD1_guided.exe t2em.mtx' (5 runs):
+
+    13,046,960,157      cycles:u                  #    2.985 GHz                      ( +-  0.21% )
+    45,399,907,258      instructions:u            #    3.48  insn per cycle           ( +-  0.00% )
+     6,388,112,713      branches:u                # 1461.549 M/sec                    ( +-  0.00% )
+         1,761,885      branch-misses:u           #    0.03% of all branches          ( +-  0.10% )
+       561,665,423      cache-references:u        #  128.505 M/sec                    ( +-  0.32% )
+        91,461,659      cache-misses:u            #   16.284 % of all cache refs      ( +-  3.08% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          4,370.78 msec task-clock:u              #    3.857 CPUs utilized            ( +-  0.45% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,514      page-faults:u             #    0.001 M/sec                    ( +-  3.69% )
+
+            1.1331 +- 0.0177 seconds time elapsed  ( +-  1.56% )
+
+--- EXE=parcoD1_guided.exe T=32 ---
+921632 921632 4590832
+thread 0x2b7e99039d00 -> 0
+thread 0x2b7e9a73e700 -> 1
+thread 0x2b7e9a93f700 -> 2
+thread 0x2b7e9ab40700 -> 3
+thread 0x2b7e9ad41700 -> 4
+thread 0x2b7e9af42700 -> 5
+thread 0x2b7e9b143700 -> 6
+thread 0x2b7e9b344700 -> 7
+thread 0x2b7e9b545700 -> 8
+thread 0x2b7e9b746700 -> 9
+thread 0x2b7e9b947700 -> 10
+thread 0x2b7e9bb48700 -> 11
+thread 0x2b7e9bd49700 -> 12
+thread 0x2b7e9bf4a700 -> 13
+thread 0x2b7e9c14b700 -> 14
+thread 0x2b7e9c34c700 -> 15
+thread 0x2b7e9c54d700 -> 16
+thread 0x2b7e9c74e700 -> 17
+thread 0x2b7e9c94f700 -> 18
+thread 0x2b7e9cb50700 -> 19
+thread 0x2b7e9cd51700 -> 20
+thread 0x2b7e9cf52700 -> 21
+thread 0x2b7e9d153700 -> 22
+thread 0x2b7e9d354700 -> 23
+thread 0x2b7e9d555700 -> 24
+thread 0x2b7e9d756700 -> 25
+thread 0x2b7e9d957700 -> 26
+thread 0x2b7ea0257700 -> 27
+thread 0x2b7ea0458700 -> 28
+thread 0x2b7ea0659700 -> 29
+thread 0x2b7ea085a700 -> 30
+thread 0x2b7ea0a5b700 -> 31
+Average time OMP guided ( tot_dur/: 600): 247.347 µs
+921632 921632 4590832
+thread 0x2abf58ab2d00 -> 0
+thread 0x2abf5a1b7700 -> 1
+thread 0x2abf5a3b8700 -> 2
+thread 0x2abf5a5b9700 -> 3
+thread 0x2abf5a7ba700 -> 4
+thread 0x2abf5a9bb700 -> 5
+thread 0x2abf5abbc700 -> 6
+thread 0x2abf5adbd700 -> 7
+thread 0x2abf5afbe700 -> 8
+thread 0x2abf5b1bf700 -> 9
+thread 0x2abf5b3c0700 -> 10
+thread 0x2abf5b5c1700 -> 11
+thread 0x2abf5b7c2700 -> 12
+thread 0x2abf5b9c3700 -> 13
+thread 0x2abf5bbc4700 -> 14
+thread 0x2abf5bdc5700 -> 15
+thread 0x2abf5bfc6700 -> 16
+thread 0x2abf5c1c7700 -> 17
+thread 0x2abf5c3c8700 -> 18
+thread 0x2abf5c5c9700 -> 19
+thread 0x2abf5c7ca700 -> 20
+thread 0x2abf5c9cb700 -> 21
+thread 0x2abf5cbcc700 -> 22
+thread 0x2abf5cdcd700 -> 23
+thread 0x2abf5cfce700 -> 24
+thread 0x2abf5d1cf700 -> 25
+thread 0x2abf5d3d0700 -> 26
+thread 0x2abf5fcd0700 -> 27
+thread 0x2abf5fed1700 -> 28
+thread 0x2abf600d2700 -> 29
+thread 0x2abf602d3700 -> 30
+thread 0x2abf604d4700 -> 31
+Average time OMP guided ( tot_dur/: 600): 247.035 µs
+921632 921632 4590832
+thread 0x2b2e761bdd00 -> 0
+thread 0x2b2e778c2700 -> 1
+thread 0x2b2e77ac3700 -> 2
+thread 0x2b2e77cc4700 -> 3
+thread 0x2b2e77ec5700 -> 4
+thread 0x2b2e780c6700 -> 5
+thread 0x2b2e782c7700 -> 6
+thread 0x2b2e784c8700 -> 7
+thread 0x2b2e786c9700 -> 8
+thread 0x2b2e788ca700 -> 9
+thread 0x2b2e78acb700 -> 10
+thread 0x2b2e78ccc700 -> 11
+thread 0x2b2e78ecd700 -> 12
+thread 0x2b2e790ce700 -> 13
+thread 0x2b2e792cf700 -> 14
+thread 0x2b2e794d0700 -> 15
+thread 0x2b2e796d1700 -> 16
+thread 0x2b2e798d2700 -> 17
+thread 0x2b2e79ad3700 -> 18
+thread 0x2b2e79cd4700 -> 19
+thread 0x2b2e79ed5700 -> 20
+thread 0x2b2e7a0d6700 -> 21
+thread 0x2b2e7a2d7700 -> 22
+thread 0x2b2e7a4d8700 -> 23
+thread 0x2b2e7a6d9700 -> 24
+thread 0x2b2e7a8da700 -> 25
+thread 0x2b2e7aadb700 -> 26
+thread 0x2b2e7d3db700 -> 27
+thread 0x2b2e7d5dc700 -> 28
+thread 0x2b2e7d7dd700 -> 29
+thread 0x2b2e7d9de700 -> 30
+thread 0x2b2e7dbdf700 -> 31
+Average time OMP guided ( tot_dur/: 600): 247.367 µs
+921632 921632 4590832
+thread 0x2b95acc2ed00 -> 0
+thread 0x2b95ae333700 -> 1
+thread 0x2b95ae534700 -> 2
+thread 0x2b95ae735700 -> 3
+thread 0x2b95ae936700 -> 4
+thread 0x2b95aeb37700 -> 5
+thread 0x2b95aed38700 -> 6
+thread 0x2b95aef39700 -> 7
+thread 0x2b95af13a700 -> 8
+thread 0x2b95af33b700 -> 9
+thread 0x2b95af53c700 -> 10
+thread 0x2b95af73d700 -> 11
+thread 0x2b95af93e700 -> 12
+thread 0x2b95afb3f700 -> 13
+thread 0x2b95afd40700 -> 14
+thread 0x2b95aff41700 -> 15
+thread 0x2b95b0142700 -> 16
+thread 0x2b95b0343700 -> 17
+thread 0x2b95b0544700 -> 18
+thread 0x2b95b0745700 -> 19
+thread 0x2b95b0946700 -> 20
+thread 0x2b95b0b47700 -> 21
+thread 0x2b95b0d48700 -> 22
+thread 0x2b95b0f49700 -> 23
+thread 0x2b95b114a700 -> 24
+thread 0x2b95b134b700 -> 25
+thread 0x2b95b154c700 -> 26
+thread 0x2b95b3e4c700 -> 27
+thread 0x2b95b404d700 -> 28
+thread 0x2b95b424e700 -> 29
+thread 0x2b95b444f700 -> 30
+thread 0x2b95b4650700 -> 31
+Average time OMP guided ( tot_dur/: 600): 246.526 µs
+921632 921632 4590832
+thread 0x2b528101ad00 -> 0
+thread 0x2b528271f700 -> 1
+thread 0x2b5282920700 -> 2
+thread 0x2b5282b21700 -> 3
+thread 0x2b5282d22700 -> 4
+thread 0x2b5282f23700 -> 5
+thread 0x2b5283124700 -> 6
+thread 0x2b5283325700 -> 7
+thread 0x2b5283526700 -> 8
+thread 0x2b5283727700 -> 9
+thread 0x2b5283928700 -> 10
+thread 0x2b5283b29700 -> 11
+thread 0x2b5283d2a700 -> 12
+thread 0x2b5283f2b700 -> 13
+thread 0x2b528412c700 -> 14
+thread 0x2b528432d700 -> 15
+thread 0x2b528452e700 -> 16
+thread 0x2b528472f700 -> 17
+thread 0x2b5284930700 -> 18
+thread 0x2b5284b31700 -> 19
+thread 0x2b5284d32700 -> 20
+thread 0x2b5284f33700 -> 21
+thread 0x2b5285134700 -> 22
+thread 0x2b5285335700 -> 23
+thread 0x2b5285536700 -> 24
+thread 0x2b5285737700 -> 25
+thread 0x2b5285938700 -> 26
+thread 0x2b5288238700 -> 27
+thread 0x2b5288439700 -> 28
+thread 0x2b528863a700 -> 29
+thread 0x2b528883b700 -> 30
+thread 0x2b5288a3c700 -> 31
+Average time OMP guided ( tot_dur/: 600): 247.812 µs
+
+ Performance counter stats for './parcoD1_guided.exe t2em.mtx' (5 runs):
+
+    16,703,005,090      cycles:u                  #    2.823 GHz                      ( +-  0.15% )
+    52,998,743,518      instructions:u            #    3.17  insn per cycle           ( +-  0.00% )
+     7,349,396,922      branches:u                # 1242.167 M/sec                    ( +-  0.01% )
+         2,072,800      branch-misses:u           #    0.03% of all branches          ( +-  0.08% )
+       683,307,246      cache-references:u        #  115.490 M/sec                    ( +-  0.17% )
+        67,081,119      cache-misses:u            #    9.817 % of all cache refs      ( +-  1.54% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          5,916.59 msec task-clock:u              #    5.650 CPUs utilized            ( +-  0.47% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,678      page-faults:u             #    0.960 K/sec                    ( +-  2.13% )
+
+            1.0472 +- 0.0234 seconds time elapsed  ( +-  2.23% )
+
+--- EXE=parcoD1_guided.exe T=64 ---
+921632 921632 4590832
+thread 0x2abe41306d00 -> 0
+thread 0x2abe42a0b700 -> 1
+thread 0x2abe42c0c700 -> 2
+thread 0x2abe42e0d700 -> 3
+thread 0x2abe4300e700 -> 4
+thread 0x2abe4320f700 -> 5
+thread 0x2abe43410700 -> 6
+thread 0x2abe43611700 -> 7
+thread 0x2abe43812700 -> 8
+thread 0x2abe43a13700 -> 9
+thread 0x2abe43c14700 -> 10
+thread 0x2abe43e15700 -> 11
+thread 0x2abe44016700 -> 12
+thread 0x2abe44217700 -> 13
+thread 0x2abe44418700 -> 14
+thread 0x2abe44619700 -> 15
+thread 0x2abe4481a700 -> 16
+thread 0x2abe44a1b700 -> 17
+thread 0x2abe44c1c700 -> 18
+thread 0x2abe44e1d700 -> 19
+thread 0x2abe4501e700 -> 20
+thread 0x2abe4521f700 -> 21
+thread 0x2abe45420700 -> 22
+thread 0x2abe45621700 -> 23
+thread 0x2abe45822700 -> 24
+thread 0x2abe45a23700 -> 25
+thread 0x2abe45c24700 -> 26
+thread 0x2abe48524700 -> 27
+thread 0x2abe48725700 -> 28
+thread 0x2abe48926700 -> 29
+thread 0x2abe48b27700 -> 30
+thread 0x2abe48d28700 -> 31
+thread 0x2abe48f29700 -> 32
+thread 0x2abe4912a700 -> 33
+thread 0x2abe4932b700 -> 34
+thread 0x2abe4952c700 -> 35
+thread 0x2abe4972d700 -> 36
+thread 0x2abe4992e700 -> 37
+thread 0x2abe49b2f700 -> 38
+thread 0x2abe49d30700 -> 39
+thread 0x2abe49f31700 -> 40
+thread 0x2abe4a132700 -> 41
+thread 0x2abe4a333700 -> 42
+thread 0x2abe4a534700 -> 43
+thread 0x2abe4a735700 -> 44
+thread 0x2abe4a936700 -> 45
+thread 0x2abe4ab37700 -> 46
+thread 0x2abe4ad38700 -> 47
+thread 0x2abe4af39700 -> 48
+thread 0x2abe4b13a700 -> 49
+thread 0x2abe4b33b700 -> 50
+thread 0x2abe4b53c700 -> 51
+thread 0x2abe4b73d700 -> 52
+thread 0x2abe4b93e700 -> 53
+thread 0x2abe4bb3f700 -> 54
+thread 0x2abe4bd40700 -> 55
+thread 0x2abe4bf41700 -> 56
+thread 0x2abe4c142700 -> 57
+thread 0x2abe4c343700 -> 58
+thread 0x2abe4c544700 -> 59
+thread 0x2abe4c745700 -> 60
+thread 0x2abe4c946700 -> 61
+thread 0x2abe4cb47700 -> 62
+thread 0x2abe4cd48700 -> 63
+Average time OMP guided ( tot_dur/: 900): 276.302 µs
+921632 921632 4590832
+thread 0x2b7b08d5cd00 -> 0
+thread 0x2b7b0a461700 -> 1
+thread 0x2b7b0a662700 -> 2
+thread 0x2b7b0a863700 -> 3
+thread 0x2b7b0aa64700 -> 4
+thread 0x2b7b0ac65700 -> 5
+thread 0x2b7b0ae66700 -> 6
+thread 0x2b7b0b067700 -> 7
+thread 0x2b7b0b268700 -> 8
+thread 0x2b7b0b469700 -> 9
+thread 0x2b7b0b66a700 -> 10
+thread 0x2b7b0b86b700 -> 11
+thread 0x2b7b0ba6c700 -> 12
+thread 0x2b7b0bc6d700 -> 13
+thread 0x2b7b0be6e700 -> 14
+thread 0x2b7b0c06f700 -> 15
+thread 0x2b7b0c270700 -> 16
+thread 0x2b7b0c471700 -> 17
+thread 0x2b7b0c672700 -> 18
+thread 0x2b7b0c873700 -> 19
+thread 0x2b7b0ca74700 -> 20
+thread 0x2b7b0cc75700 -> 21
+thread 0x2b7b0ce76700 -> 22
+thread 0x2b7b0d077700 -> 23
+thread 0x2b7b0d278700 -> 24
+thread 0x2b7b0d479700 -> 25
+thread 0x2b7b0d67a700 -> 26
+thread 0x2b7b0ff7a700 -> 27
+thread 0x2b7b1017b700 -> 28
+thread 0x2b7b1037c700 -> 29
+thread 0x2b7b1057d700 -> 30
+thread 0x2b7b1077e700 -> 31
+thread 0x2b7b1097f700 -> 32
+thread 0x2b7b10b80700 -> 33
+thread 0x2b7b10d81700 -> 34
+thread 0x2b7b10f82700 -> 35
+thread 0x2b7b11183700 -> 36
+thread 0x2b7b11384700 -> 37
+thread 0x2b7b11585700 -> 38
+thread 0x2b7b11786700 -> 39
+thread 0x2b7b11987700 -> 40
+thread 0x2b7b11b88700 -> 41
+thread 0x2b7b11d89700 -> 42
+thread 0x2b7b11f8a700 -> 43
+thread 0x2b7b1218b700 -> 44
+thread 0x2b7b1238c700 -> 45
+thread 0x2b7b1258d700 -> 46
+thread 0x2b7b1278e700 -> 47
+thread 0x2b7b1298f700 -> 48
+thread 0x2b7b12b90700 -> 49
+thread 0x2b7b12d91700 -> 50
+thread 0x2b7b12f92700 -> 51
+thread 0x2b7b13193700 -> 52
+thread 0x2b7b13394700 -> 53
+thread 0x2b7b13595700 -> 54
+thread 0x2b7b13796700 -> 55
+thread 0x2b7b13997700 -> 56
+thread 0x2b7b13b98700 -> 57
+thread 0x2b7b13d99700 -> 58
+thread 0x2b7b13f9a700 -> 59
+thread 0x2b7b1419b700 -> 60
+thread 0x2b7b1439c700 -> 61
+thread 0x2b7b1459d700 -> 62
+thread 0x2b7b1479e700 -> 63
+Average time OMP guided ( tot_dur/: 900): 292.09 µs
+921632 921632 4590832
+thread 0x2b12c618cd00 -> 0
+thread 0x2b12c7891700 -> 1
+thread 0x2b12c7a92700 -> 2
+thread 0x2b12c7c93700 -> 3
+thread 0x2b12c7e94700 -> 4
+thread 0x2b12c8095700 -> 5
+thread 0x2b12c8296700 -> 6
+thread 0x2b12c8497700 -> 7
+thread 0x2b12c8698700 -> 8
+thread 0x2b12c8899700 -> 9
+thread 0x2b12c8a9a700 -> 10
+thread 0x2b12c8c9b700 -> 11
+thread 0x2b12c8e9c700 -> 12
+thread 0x2b12c909d700 -> 13
+thread 0x2b12c929e700 -> 14
+thread 0x2b12c949f700 -> 15
+thread 0x2b12c96a0700 -> 16
+thread 0x2b12c98a1700 -> 17
+thread 0x2b12c9aa2700 -> 18
+thread 0x2b12c9ca3700 -> 19
+thread 0x2b12c9ea4700 -> 20
+thread 0x2b12ca0a5700 -> 21
+thread 0x2b12ca2a6700 -> 22
+thread 0x2b12ca4a7700 -> 23
+thread 0x2b12ca6a8700 -> 24
+thread 0x2b12ca8a9700 -> 25
+thread 0x2b12caaaa700 -> 26
+thread 0x2b12cd3aa700 -> 27
+thread 0x2b12cd5ab700 -> 28
+thread 0x2b12cd7ac700 -> 29
+thread 0x2b12cd9ad700 -> 30
+thread 0x2b12cdbae700 -> 31
+thread 0x2b12cddaf700 -> 32
+thread 0x2b12cdfb0700 -> 33
+thread 0x2b12ce1b1700 -> 34
+thread 0x2b12ce3b2700 -> 35
+thread 0x2b12ce5b3700 -> 36
+thread 0x2b12ce7b4700 -> 37
+thread 0x2b12ce9b5700 -> 38
+thread 0x2b12cebb6700 -> 39
+thread 0x2b12cedb7700 -> 40
+thread 0x2b12cefb8700 -> 41
+thread 0x2b12cf1b9700 -> 42
+thread 0x2b12cf3ba700 -> 43
+thread 0x2b12cf5bb700 -> 44
+thread 0x2b12cf7bc700 -> 45
+thread 0x2b12cf9bd700 -> 46
+thread 0x2b12cfbbe700 -> 47
+thread 0x2b12cfdbf700 -> 48
+thread 0x2b12cffc0700 -> 49
+thread 0x2b12d01c1700 -> 50
+thread 0x2b12d03c2700 -> 51
+thread 0x2b12d05c3700 -> 52
+thread 0x2b12d07c4700 -> 53
+thread 0x2b12d09c5700 -> 54
+thread 0x2b12d0bc6700 -> 55
+thread 0x2b12d0dc7700 -> 56
+thread 0x2b12d0fc8700 -> 57
+thread 0x2b12d11c9700 -> 58
+thread 0x2b12d13ca700 -> 59
+thread 0x2b12d15cb700 -> 60
+thread 0x2b12d17cc700 -> 61
+thread 0x2b12d19cd700 -> 62
+thread 0x2b12d1bce700 -> 63
+Average time OMP guided ( tot_dur/: 900): 275.371 µs
+921632 921632 4590832
+thread 0x2b45536c7d00 -> 0
+thread 0x2b4554dcc700 -> 1
+thread 0x2b4554fcd700 -> 2
+thread 0x2b45551ce700 -> 3
+thread 0x2b45553cf700 -> 4
+thread 0x2b45555d0700 -> 5
+thread 0x2b45557d1700 -> 6
+thread 0x2b45559d2700 -> 7
+thread 0x2b4555bd3700 -> 8
+thread 0x2b4555dd4700 -> 9
+thread 0x2b4555fd5700 -> 10
+thread 0x2b45561d6700 -> 11
+thread 0x2b45563d7700 -> 12
+thread 0x2b45565d8700 -> 13
+thread 0x2b45567d9700 -> 14
+thread 0x2b45569da700 -> 15
+thread 0x2b4556bdb700 -> 16
+thread 0x2b4556ddc700 -> 17
+thread 0x2b4556fdd700 -> 18
+thread 0x2b45571de700 -> 19
+thread 0x2b45573df700 -> 20
+thread 0x2b45575e0700 -> 21
+thread 0x2b45577e1700 -> 22
+thread 0x2b45579e2700 -> 23
+thread 0x2b4557be3700 -> 24
+thread 0x2b4557de4700 -> 25
+thread 0x2b4557fe5700 -> 26
+thread 0x2b455a8e5700 -> 27
+thread 0x2b455aae6700 -> 28
+thread 0x2b455ace7700 -> 29
+thread 0x2b455aee8700 -> 30
+thread 0x2b455b0e9700 -> 31
+thread 0x2b455b2ea700 -> 32
+thread 0x2b455b4eb700 -> 33
+thread 0x2b455b6ec700 -> 34
+thread 0x2b455b8ed700 -> 35
+thread 0x2b455baee700 -> 36
+thread 0x2b455bcef700 -> 37
+thread 0x2b455bef0700 -> 38
+thread 0x2b455c0f1700 -> 39
+thread 0x2b455c2f2700 -> 40
+thread 0x2b455c4f3700 -> 41
+thread 0x2b455c6f4700 -> 42
+thread 0x2b455c8f5700 -> 43
+thread 0x2b455caf6700 -> 44
+thread 0x2b455ccf7700 -> 45
+thread 0x2b455cef8700 -> 46
+thread 0x2b455d0f9700 -> 47
+thread 0x2b455d2fa700 -> 48
+thread 0x2b455d4fb700 -> 49
+thread 0x2b455d6fc700 -> 50
+thread 0x2b455d8fd700 -> 51
+thread 0x2b455dafe700 -> 52
+thread 0x2b455dcff700 -> 53
+thread 0x2b455df00700 -> 54
+thread 0x2b455e101700 -> 55
+thread 0x2b455e302700 -> 56
+thread 0x2b455e503700 -> 57
+thread 0x2b455e704700 -> 58
+thread 0x2b455e905700 -> 59
+thread 0x2b455eb06700 -> 60
+thread 0x2b455ed07700 -> 61
+thread 0x2b455ef08700 -> 62
+thread 0x2b455f109700 -> 63
+Average time OMP guided ( tot_dur/: 900): 268.141 µs
+921632 921632 4590832
+thread 0x2ab7c8919d00 -> 0
+thread 0x2ab7ca01e700 -> 1
+thread 0x2ab7ca21f700 -> 2
+thread 0x2ab7ca420700 -> 3
+thread 0x2ab7ca621700 -> 4
+thread 0x2ab7ca822700 -> 5
+thread 0x2ab7caa23700 -> 6
+thread 0x2ab7cac24700 -> 7
+thread 0x2ab7cae25700 -> 8
+thread 0x2ab7cb026700 -> 9
+thread 0x2ab7cb227700 -> 10
+thread 0x2ab7cb428700 -> 11
+thread 0x2ab7cb629700 -> 12
+thread 0x2ab7cb82a700 -> 13
+thread 0x2ab7cba2b700 -> 14
+thread 0x2ab7cbc2c700 -> 15
+thread 0x2ab7cbe2d700 -> 16
+thread 0x2ab7cc02e700 -> 17
+thread 0x2ab7cc22f700 -> 18
+thread 0x2ab7cc430700 -> 19
+thread 0x2ab7cc631700 -> 20
+thread 0x2ab7cc832700 -> 21
+thread 0x2ab7cca33700 -> 22
+thread 0x2ab7ccc34700 -> 23
+thread 0x2ab7cce35700 -> 24
+thread 0x2ab7cd036700 -> 25
+thread 0x2ab7cd237700 -> 26
+thread 0x2ab7cfb37700 -> 27
+thread 0x2ab7cfd38700 -> 28
+thread 0x2ab7cff39700 -> 29
+thread 0x2ab7d013a700 -> 30
+thread 0x2ab7d033b700 -> 31
+thread 0x2ab7d053c700 -> 32
+thread 0x2ab7d073d700 -> 33
+thread 0x2ab7d093e700 -> 34
+thread 0x2ab7d0b3f700 -> 35
+thread 0x2ab7d0d40700 -> 36
+thread 0x2ab7d0f41700 -> 37
+thread 0x2ab7d1142700 -> 38
+thread 0x2ab7d1343700 -> 39
+thread 0x2ab7d1544700 -> 40
+thread 0x2ab7d1745700 -> 41
+thread 0x2ab7d1946700 -> 42
+thread 0x2ab7d1b47700 -> 43
+thread 0x2ab7d1d48700 -> 44
+thread 0x2ab7d1f49700 -> 45
+thread 0x2ab7d214a700 -> 46
+thread 0x2ab7d234b700 -> 47
+thread 0x2ab7d254c700 -> 48
+thread 0x2ab7d274d700 -> 49
+thread 0x2ab7d294e700 -> 50
+thread 0x2ab7d2b4f700 -> 51
+thread 0x2ab7d2d50700 -> 52
+thread 0x2ab7d2f51700 -> 53
+thread 0x2ab7d3152700 -> 54
+thread 0x2ab7d3353700 -> 55
+thread 0x2ab7d3554700 -> 56
+thread 0x2ab7d3755700 -> 57
+thread 0x2ab7d3956700 -> 58
+thread 0x2ab7d3b57700 -> 59
+thread 0x2ab7d3d58700 -> 60
+thread 0x2ab7d3f59700 -> 61
+thread 0x2ab7d415a700 -> 62
+thread 0x2ab7d435b700 -> 63
+Average time OMP guided ( tot_dur/: 900): 278.725 µs
+
+ Performance counter stats for './parcoD1_guided.exe t2em.mtx' (5 runs):
+
+    54,619,567,563      cycles:u                  #    2.980 GHz                      ( +-  1.11% )
+    76,558,378,817      instructions:u            #    1.40  insn per cycle           ( +-  0.03% )
+    10,450,936,006      branches:u                #  570.206 M/sec                    ( +-  0.06% )
+         3,127,973      branch-misses:u           #    0.03% of all branches          ( +-  0.14% )
+     1,069,049,186      cache-references:u        #   58.328 M/sec                    ( +-  0.22% )
+       152,328,758      cache-misses:u            #   14.249 % of all cache refs      ( +-  1.55% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+         18,328.35 msec task-clock:u              #   16.165 CPUs utilized            ( +-  1.06% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,792      page-faults:u             #    0.316 K/sec                    ( +-  3.38% )
+
+            1.1338 +- 0.0179 seconds time elapsed  ( +-  1.58% )
+

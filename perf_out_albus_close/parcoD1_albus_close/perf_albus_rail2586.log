@@ -1,0 +1,834 @@
+=== Matrix: rail2586.mtx ===
+--- EXE=parcoD1_albus.exe T=1 ---
+2586 923269 8011362
+Average time ALBUS (tot_dur/: 200): 8059.66 µs
+2586 923269 8011362
+Average time ALBUS (tot_dur/: 200): 8043.13 µs
+2586 923269 8011362
+Average time ALBUS (tot_dur/: 200): 8083.22 µs
+2586 923269 8011362
+Average time ALBUS (tot_dur/: 200): 8079.06 µs
+2586 923269 8011362
+Average time ALBUS (tot_dur/: 200): 8143.85 µs
+
+ Performance counter stats for './parcoD1_albus.exe rail2586.mtx' (5 runs):
+
+     9,676,149,873      cycles:u                  #    3.065 GHz                      ( +-  0.42% )
+    15,923,498,218      instructions:u            #    1.65  insn per cycle           ( +-  0.00% )
+     2,925,954,640      branches:u                #  926.886 M/sec                    ( +-  0.00% )
+         3,747,706      branch-misses:u           #    0.13% of all branches          ( +-  0.06% )
+       594,441,647      cache-references:u        #  188.308 M/sec                    ( +-  0.17% )
+       125,766,180      cache-misses:u            #   21.157 % of all cache refs      ( +-  0.44% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          3,156.76 msec task-clock:u              #    0.996 CPUs utilized            ( +-  0.56% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,338      page-faults:u             #    0.002 M/sec                    ( +-  3.83% )
+
+            3.1709 +- 0.0177 seconds time elapsed  ( +-  0.56% )
+
+--- EXE=parcoD1_albus.exe T=2 ---
+2586 923269 8011362
+thread 0x2b5902d77d00 -> 0
+thread 0x2b590447c700 -> 1
+Average time ALBUS (tot_dur/: 200): 4028.78 µs
+2586 923269 8011362
+thread 0x2aee8303ed00 -> 0
+thread 0x2aee84743700 -> 1
+Average time ALBUS (tot_dur/: 200): 4040.2 µs
+2586 923269 8011362
+thread 0x2b537d9a6d00 -> 0
+thread 0x2b537f0ab700 -> 1
+Average time ALBUS (tot_dur/: 200): 4007.64 µs
+2586 923269 8011362
+thread 0x2b01d35efd00 -> 0
+thread 0x2b01d4cf4700 -> 1
+Average time ALBUS (tot_dur/: 200): 4043.19 µs
+2586 923269 8011362
+thread 0x2aadee7c0d00 -> 0
+thread 0x2aadefec5700 -> 1
+Average time ALBUS (tot_dur/: 200): 4030.82 µs
+
+ Performance counter stats for './parcoD1_albus.exe rail2586.mtx' (5 runs):
+
+     9,717,244,210      cycles:u                  #    3.088 GHz                      ( +-  0.11% )
+    15,959,979,411      instructions:u            #    1.64  insn per cycle           ( +-  0.01% )
+     2,936,394,210      branches:u                #  933.109 M/sec                    ( +-  0.01% )
+         3,615,772      branch-misses:u           #    0.12% of all branches          ( +-  0.04% )
+       620,491,002      cache-references:u        #  197.176 M/sec                    ( +-  0.03% )
+       120,741,563      cache-misses:u            #   19.459 % of all cache refs      ( +-  0.21% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          3,146.89 msec task-clock:u              #    1.343 CPUs utilized            ( +-  0.23% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             3,677      page-faults:u             #    0.001 M/sec                    ( +-  2.78% )
+
+           2.34352 +- 0.00891 seconds time elapsed  ( +-  0.38% )
+
+--- EXE=parcoD1_albus.exe T=4 ---
+2586 923269 8011362
+thread 0x2b79cbd2cd00 -> 0
+thread 0x2b79cd431700 -> 1
+thread 0x2b79cd632700 -> 2
+thread 0x2b79cd833700 -> 3
+Average time ALBUS (tot_dur/: 300): 2071.84 µs
+2586 923269 8011362
+thread 0x2b9f1485fd00 -> 0
+thread 0x2b9f15f64700 -> 1
+thread 0x2b9f16165700 -> 2
+thread 0x2b9f16366700 -> 3
+Average time ALBUS (tot_dur/: 300): 2065.53 µs
+2586 923269 8011362
+thread 0x2ab441043d00 -> 0
+thread 0x2ab442748700 -> 1
+thread 0x2ab442949700 -> 2
+thread 0x2ab442b4a700 -> 3
+Average time ALBUS (tot_dur/: 300): 2065.14 µs
+2586 923269 8011362
+thread 0x2aab9e0d5d00 -> 0
+thread 0x2aab9f7da700 -> 1
+thread 0x2aab9f9db700 -> 2
+thread 0x2aab9fbdc700 -> 3
+Average time ALBUS (tot_dur/: 300): 2035.93 µs
+2586 923269 8011362
+thread 0x2aae5a39ad00 -> 0
+thread 0x2aae5ba9f700 -> 1
+thread 0x2aae5bca0700 -> 2
+thread 0x2aae5bea1700 -> 3
+Average time ALBUS (tot_dur/: 300): 2064.24 µs
+
+ Performance counter stats for './parcoD1_albus.exe rail2586.mtx' (5 runs):
+
+    12,367,187,104      cycles:u                  #    3.084 GHz                      ( +-  0.58% )
+    17,825,087,448      instructions:u            #    1.44  insn per cycle           ( +-  0.01% )
+     3,048,651,803      branches:u                #  760.181 M/sec                    ( +-  0.02% )
+         3,911,745      branch-misses:u           #    0.13% of all branches          ( +-  0.05% )
+       918,352,171      cache-references:u        #  228.991 M/sec                    ( +-  0.16% )
+       173,535,543      cache-misses:u            #   18.896 % of all cache refs      ( +-  0.13% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          4,010.43 msec task-clock:u              #    1.858 CPUs utilized            ( +-  0.58% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             3,482      page-faults:u             #    0.868 K/sec                    ( +-  3.58% )
+
+            2.1583 +- 0.0200 seconds time elapsed  ( +-  0.93% )
+
+--- EXE=parcoD1_albus.exe T=8 ---
+2586 923269 8011362
+thread 0x2b1b248ffd00 -> 0
+thread 0x2b1b26004700 -> 1
+thread 0x2b1b26205700 -> 2
+thread 0x2b1b26406700 -> 3
+thread 0x2b1b26607700 -> 4
+thread 0x2b1b26808700 -> 5
+thread 0x2b1b26a09700 -> 6
+thread 0x2b1b26c0a700 -> 7
+Average time ALBUS (tot_dur/: 300): 1100.99 µs
+2586 923269 8011362
+thread 0x2b98066bcd00 -> 0
+thread 0x2b9807dc1700 -> 1
+thread 0x2b9807fc2700 -> 2
+thread 0x2b98081c3700 -> 3
+thread 0x2b98083c4700 -> 4
+thread 0x2b98085c5700 -> 5
+thread 0x2b98087c6700 -> 6
+thread 0x2b98089c7700 -> 7
+Average time ALBUS (tot_dur/: 300): 1085.6 µs
+2586 923269 8011362
+thread 0x2b2eae8b1d00 -> 0
+thread 0x2b2eaffb6700 -> 1
+thread 0x2b2eb01b7700 -> 2
+thread 0x2b2eb03b8700 -> 3
+thread 0x2b2eb05b9700 -> 4
+thread 0x2b2eb07ba700 -> 5
+thread 0x2b2eb09bb700 -> 6
+thread 0x2b2eb0bbc700 -> 7
+Average time ALBUS (tot_dur/: 300): 1082.5 µs
+2586 923269 8011362
+thread 0x2b924ef0fd00 -> 0
+thread 0x2b9250614700 -> 1
+thread 0x2b9250815700 -> 2
+thread 0x2b9250a16700 -> 3
+thread 0x2b9250c17700 -> 4
+thread 0x2b9250e18700 -> 5
+thread 0x2b9251019700 -> 6
+thread 0x2b925121a700 -> 7
+Average time ALBUS (tot_dur/: 300): 1091.13 µs
+2586 923269 8011362
+thread 0x2b0fe799bd00 -> 0
+thread 0x2b0fe90a0700 -> 1
+thread 0x2b0fe92a1700 -> 2
+thread 0x2b0fe94a2700 -> 3
+thread 0x2b0fe96a3700 -> 4
+thread 0x2b0fe98a4700 -> 5
+thread 0x2b0fe9aa5700 -> 6
+thread 0x2b0fe9ca6700 -> 7
+Average time ALBUS (tot_dur/: 300): 1082.16 µs
+
+ Performance counter stats for './parcoD1_albus.exe rail2586.mtx' (5 runs):
+
+    12,623,797,348      cycles:u                  #    3.071 GHz                      ( +-  0.77% )
+    17,849,063,329      instructions:u            #    1.41  insn per cycle           ( +-  0.03% )
+     3,055,342,840      branches:u                #  743.257 M/sec                    ( +-  0.05% )
+         3,856,021      branch-misses:u           #    0.13% of all branches          ( +-  0.06% )
+       917,452,136      cache-references:u        #  223.184 M/sec                    ( +-  0.16% )
+       172,778,914      cache-misses:u            #   18.832 % of all cache refs      ( +-  0.78% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          4,110.75 msec task-clock:u              #    2.289 CPUs utilized            ( +-  0.35% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             3,701      page-faults:u             #    0.900 K/sec                    ( +-  5.16% )
+
+            1.7959 +- 0.0115 seconds time elapsed  ( +-  0.64% )
+
+--- EXE=parcoD1_albus.exe T=16 ---
+2586 923269 8011362
+thread 0x2ae72d35fd00 -> 0
+thread 0x2ae72ea64700 -> 1
+thread 0x2ae72ec65700 -> 2
+thread 0x2ae72ee66700 -> 3
+thread 0x2ae72f067700 -> 4
+thread 0x2ae72f268700 -> 5
+thread 0x2ae72f469700 -> 6
+thread 0x2ae72f66a700 -> 7
+thread 0x2ae72f86b700 -> 8
+thread 0x2ae72fa6c700 -> 9
+thread 0x2ae72fc6d700 -> 10
+thread 0x2ae72fe6e700 -> 11
+thread 0x2ae73006f700 -> 12
+thread 0x2ae730270700 -> 13
+thread 0x2ae730471700 -> 14
+thread 0x2ae730672700 -> 15
+Average time ALBUS (tot_dur/: 500): 603.215 µs
+2586 923269 8011362
+thread 0x2b8669dd3d00 -> 0
+thread 0x2b866b4d8700 -> 1
+thread 0x2b866b6d9700 -> 2
+thread 0x2b866b8da700 -> 3
+thread 0x2b866badb700 -> 4
+thread 0x2b866bcdc700 -> 5
+thread 0x2b866bedd700 -> 6
+thread 0x2b866c0de700 -> 7
+thread 0x2b866c2df700 -> 8
+thread 0x2b866c4e0700 -> 9
+thread 0x2b866c6e1700 -> 10
+thread 0x2b866c8e2700 -> 11
+thread 0x2b866cae3700 -> 12
+thread 0x2b866cce4700 -> 13
+thread 0x2b866cee5700 -> 14
+thread 0x2b866d0e6700 -> 15
+Average time ALBUS (tot_dur/: 500): 598.606 µs
+2586 923269 8011362
+thread 0x2b4c540c1d00 -> 0
+thread 0x2b4c557c6700 -> 1
+thread 0x2b4c559c7700 -> 2
+thread 0x2b4c55bc8700 -> 3
+thread 0x2b4c55dc9700 -> 4
+thread 0x2b4c55fca700 -> 5
+thread 0x2b4c561cb700 -> 6
+thread 0x2b4c563cc700 -> 7
+thread 0x2b4c565cd700 -> 8
+thread 0x2b4c567ce700 -> 9
+thread 0x2b4c569cf700 -> 10
+thread 0x2b4c56bd0700 -> 11
+thread 0x2b4c56dd1700 -> 12
+thread 0x2b4c56fd2700 -> 13
+thread 0x2b4c571d3700 -> 14
+thread 0x2b4c573d4700 -> 15
+Average time ALBUS (tot_dur/: 500): 595.752 µs
+2586 923269 8011362
+thread 0x2b762e6aed00 -> 0
+thread 0x2b762fdb3700 -> 1
+thread 0x2b762ffb4700 -> 2
+thread 0x2b76301b5700 -> 3
+thread 0x2b76303b6700 -> 4
+thread 0x2b76305b7700 -> 5
+thread 0x2b76307b8700 -> 6
+thread 0x2b76309b9700 -> 7
+thread 0x2b7630bba700 -> 8
+thread 0x2b7630dbb700 -> 9
+thread 0x2b7630fbc700 -> 10
+thread 0x2b76311bd700 -> 11
+thread 0x2b76313be700 -> 12
+thread 0x2b76315bf700 -> 13
+thread 0x2b76317c0700 -> 14
+thread 0x2b76319c1700 -> 15
+Average time ALBUS (tot_dur/: 500): 592.763 µs
+2586 923269 8011362
+thread 0x2b66daf0ed00 -> 0
+thread 0x2b66dc613700 -> 1
+thread 0x2b66dc814700 -> 2
+thread 0x2b66dca15700 -> 3
+thread 0x2b66dcc16700 -> 4
+thread 0x2b66dce17700 -> 5
+thread 0x2b66dd018700 -> 6
+thread 0x2b66dd219700 -> 7
+thread 0x2b66dd41a700 -> 8
+thread 0x2b66dd61b700 -> 9
+thread 0x2b66dd81c700 -> 10
+thread 0x2b66dda1d700 -> 11
+thread 0x2b66ddc1e700 -> 12
+thread 0x2b66dde1f700 -> 13
+thread 0x2b66de020700 -> 14
+thread 0x2b66de221700 -> 15
+Average time ALBUS (tot_dur/: 500): 587.996 µs
+
+ Performance counter stats for './parcoD1_albus.exe rail2586.mtx' (5 runs):
+
+    19,570,200,334      cycles:u                  #    3.091 GHz                      ( +-  1.10% )
+    21,664,523,318      instructions:u            #    1.11  insn per cycle           ( +-  0.05% )
+     3,303,637,228      branches:u                #  521.865 M/sec                    ( +-  0.10% )
+         4,550,233      branch-misses:u           #    0.14% of all branches          ( +-  0.06% )
+     1,527,885,628      cache-references:u        #  241.355 M/sec                    ( +-  0.17% )
+       279,772,760      cache-misses:u            #   18.311 % of all cache refs      ( +-  0.51% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          6,330.44 msec task-clock:u              #    3.583 CPUs utilized            ( +-  0.52% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             3,735      page-faults:u             #    0.590 K/sec                    ( +-  5.12% )
+
+            1.7666 +- 0.0157 seconds time elapsed  ( +-  0.89% )
+
+--- EXE=parcoD1_albus.exe T=32 ---
+2586 923269 8011362
+thread 0x2b3dc9020d00 -> 0
+thread 0x2b3dca725700 -> 1
+thread 0x2b3dca926700 -> 2
+thread 0x2b3dcab27700 -> 3
+thread 0x2b3dcad28700 -> 4
+thread 0x2b3dcaf29700 -> 5
+thread 0x2b3dcb12a700 -> 6
+thread 0x2b3dcb32b700 -> 7
+thread 0x2b3dcb52c700 -> 8
+thread 0x2b3dcb72d700 -> 9
+thread 0x2b3dcb92e700 -> 10
+thread 0x2b3dcbb2f700 -> 11
+thread 0x2b3dcbd30700 -> 12
+thread 0x2b3dcbf31700 -> 13
+thread 0x2b3dcc132700 -> 14
+thread 0x2b3dcc333700 -> 15
+thread 0x2b3dcc534700 -> 16
+thread 0x2b3dcc735700 -> 17
+thread 0x2b3dcc936700 -> 18
+thread 0x2b3dccb37700 -> 19
+thread 0x2b3dccd38700 -> 20
+thread 0x2b3dccf39700 -> 21
+thread 0x2b3dcd13a700 -> 22
+thread 0x2b3dcd33b700 -> 23
+thread 0x2b3dcd53c700 -> 24
+thread 0x2b3dcd73d700 -> 25
+thread 0x2b3dcd93e700 -> 26
+thread 0x2b3dcdb3f700 -> 27
+thread 0x2b3dcdd40700 -> 28
+thread 0x2b3dcdf41700 -> 29
+thread 0x2b3dce142700 -> 30
+thread 0x2b3dce343700 -> 31
+Average time ALBUS (tot_dur/: 600): 378.718 µs
+2586 923269 8011362
+thread 0x2b6e017a2d00 -> 0
+thread 0x2b6e02ea7700 -> 1
+thread 0x2b6e030a8700 -> 2
+thread 0x2b6e032a9700 -> 3
+thread 0x2b6e034aa700 -> 4
+thread 0x2b6e036ab700 -> 5
+thread 0x2b6e038ac700 -> 6
+thread 0x2b6e03aad700 -> 7
+thread 0x2b6e03cae700 -> 8
+thread 0x2b6e03eaf700 -> 9
+thread 0x2b6e040b0700 -> 10
+thread 0x2b6e042b1700 -> 11
+thread 0x2b6e044b2700 -> 12
+thread 0x2b6e046b3700 -> 13
+thread 0x2b6e048b4700 -> 14
+thread 0x2b6e04ab5700 -> 15
+thread 0x2b6e04cb6700 -> 16
+thread 0x2b6e04eb7700 -> 17
+thread 0x2b6e050b8700 -> 18
+thread 0x2b6e052b9700 -> 19
+thread 0x2b6e054ba700 -> 20
+thread 0x2b6e056bb700 -> 21
+thread 0x2b6e058bc700 -> 22
+thread 0x2b6e05abd700 -> 23
+thread 0x2b6e05cbe700 -> 24
+thread 0x2b6e05ebf700 -> 25
+thread 0x2b6e060c0700 -> 26
+thread 0x2b6e062c1700 -> 27
+thread 0x2b6e064c2700 -> 28
+thread 0x2b6e066c3700 -> 29
+thread 0x2b6e068c4700 -> 30
+thread 0x2b6e06ac5700 -> 31
+Average time ALBUS (tot_dur/: 600): 377.064 µs
+2586 923269 8011362
+thread 0x2b2081a42d00 -> 0
+thread 0x2b2083147700 -> 1
+thread 0x2b2083348700 -> 2
+thread 0x2b2083549700 -> 3
+thread 0x2b208374a700 -> 4
+thread 0x2b208394b700 -> 5
+thread 0x2b2083b4c700 -> 6
+thread 0x2b2083d4d700 -> 7
+thread 0x2b2083f4e700 -> 8
+thread 0x2b208414f700 -> 9
+thread 0x2b2084350700 -> 10
+thread 0x2b2084551700 -> 11
+thread 0x2b2084752700 -> 12
+thread 0x2b2084953700 -> 13
+thread 0x2b2084b54700 -> 14
+thread 0x2b2084d55700 -> 15
+thread 0x2b2084f56700 -> 16
+thread 0x2b2085157700 -> 17
+thread 0x2b2085358700 -> 18
+thread 0x2b2085559700 -> 19
+thread 0x2b208575a700 -> 20
+thread 0x2b208595b700 -> 21
+thread 0x2b2085b5c700 -> 22
+thread 0x2b2085d5d700 -> 23
+thread 0x2b2085f5e700 -> 24
+thread 0x2b208615f700 -> 25
+thread 0x2b2086360700 -> 26
+thread 0x2b2086561700 -> 27
+thread 0x2b2086762700 -> 28
+thread 0x2b2086963700 -> 29
+thread 0x2b2086b64700 -> 30
+thread 0x2b2086d65700 -> 31
+Average time ALBUS (tot_dur/: 600): 371.344 µs
+2586 923269 8011362
+thread 0x2b27a12dfd00 -> 0
+thread 0x2b27a29e4700 -> 1
+thread 0x2b27a2be5700 -> 2
+thread 0x2b27a2de6700 -> 3
+thread 0x2b27a2fe7700 -> 4
+thread 0x2b27a31e8700 -> 5
+thread 0x2b27a33e9700 -> 6
+thread 0x2b27a35ea700 -> 7
+thread 0x2b27a37eb700 -> 8
+thread 0x2b27a39ec700 -> 9
+thread 0x2b27a3bed700 -> 10
+thread 0x2b27a3dee700 -> 11
+thread 0x2b27a3fef700 -> 12
+thread 0x2b27a41f0700 -> 13
+thread 0x2b27a43f1700 -> 14
+thread 0x2b27a45f2700 -> 15
+thread 0x2b27a47f3700 -> 16
+thread 0x2b27a49f4700 -> 17
+thread 0x2b27a4bf5700 -> 18
+thread 0x2b27a4df6700 -> 19
+thread 0x2b27a4ff7700 -> 20
+thread 0x2b27a51f8700 -> 21
+thread 0x2b27a53f9700 -> 22
+thread 0x2b27a55fa700 -> 23
+thread 0x2b27a57fb700 -> 24
+thread 0x2b27a59fc700 -> 25
+thread 0x2b27a5bfd700 -> 26
+thread 0x2b27a5dfe700 -> 27
+thread 0x2b27a5fff700 -> 28
+thread 0x2b27a6200700 -> 29
+thread 0x2b27a6401700 -> 30
+thread 0x2b27a6602700 -> 31
+Average time ALBUS (tot_dur/: 600): 374.07 µs
+2586 923269 8011362
+thread 0x2b5bb224ad00 -> 0
+thread 0x2b5bb394f700 -> 1
+thread 0x2b5bb3b50700 -> 2
+thread 0x2b5bb3d51700 -> 3
+thread 0x2b5bb3f52700 -> 4
+thread 0x2b5bb4153700 -> 5
+thread 0x2b5bb4354700 -> 6
+thread 0x2b5bb4555700 -> 7
+thread 0x2b5bb4756700 -> 8
+thread 0x2b5bb4957700 -> 9
+thread 0x2b5bb4b58700 -> 10
+thread 0x2b5bb4d59700 -> 11
+thread 0x2b5bb4f5a700 -> 12
+thread 0x2b5bb515b700 -> 13
+thread 0x2b5bb535c700 -> 14
+thread 0x2b5bb555d700 -> 15
+thread 0x2b5bb575e700 -> 16
+thread 0x2b5bb595f700 -> 17
+thread 0x2b5bb5b60700 -> 18
+thread 0x2b5bb5d61700 -> 19
+thread 0x2b5bb5f62700 -> 20
+thread 0x2b5bb6163700 -> 21
+thread 0x2b5bb6364700 -> 22
+thread 0x2b5bb6565700 -> 23
+thread 0x2b5bb6766700 -> 24
+thread 0x2b5bb6967700 -> 25
+thread 0x2b5bb6b68700 -> 26
+thread 0x2b5bb6d69700 -> 27
+thread 0x2b5bb6f6a700 -> 28
+thread 0x2b5bb716b700 -> 29
+thread 0x2b5bb736c700 -> 30
+thread 0x2b5bb756d700 -> 31
+Average time ALBUS (tot_dur/: 600): 373.221 µs
+
+ Performance counter stats for './parcoD1_albus.exe rail2586.mtx' (5 runs):
+
+    27,123,016,964      cycles:u                  #    2.998 GHz                      ( +-  0.30% )
+    24,106,502,845      instructions:u            #    0.89  insn per cycle           ( +-  0.05% )
+     3,579,260,728      branches:u                #  395.659 M/sec                    ( +-  0.09% )
+         4,942,373      branch-misses:u           #    0.14% of all branches          ( +-  0.07% )
+     1,854,138,635      cache-references:u        #  204.961 M/sec                    ( +-  0.04% )
+       164,507,066      cache-misses:u            #    8.872 % of all cache refs      ( +-  2.92% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          9,046.32 msec task-clock:u              #    5.523 CPUs utilized            ( +-  0.64% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             3,699      page-faults:u             #    0.409 K/sec                    ( +-  3.42% )
+
+            1.6380 +- 0.0452 seconds time elapsed  ( +-  2.76% )
+
+--- EXE=parcoD1_albus.exe T=64 ---
+2586 923269 8011362
+thread 0x2b73c22e3d00 -> 0
+thread 0x2b73c39e8700 -> 1
+thread 0x2b73c3be9700 -> 2
+thread 0x2b73c3dea700 -> 3
+thread 0x2b73c3feb700 -> 4
+thread 0x2b73c41ec700 -> 5
+thread 0x2b73c43ed700 -> 6
+thread 0x2b73c45ee700 -> 7
+thread 0x2b73c47ef700 -> 8
+thread 0x2b73c49f0700 -> 9
+thread 0x2b73c4bf1700 -> 10
+thread 0x2b73c4df2700 -> 11
+thread 0x2b73c4ff3700 -> 12
+thread 0x2b73c51f4700 -> 13
+thread 0x2b73c53f5700 -> 14
+thread 0x2b73c55f6700 -> 15
+thread 0x2b73c57f7700 -> 16
+thread 0x2b73c59f8700 -> 17
+thread 0x2b73c5bf9700 -> 18
+thread 0x2b73c5dfa700 -> 19
+thread 0x2b73c5ffb700 -> 20
+thread 0x2b73c61fc700 -> 21
+thread 0x2b73c63fd700 -> 22
+thread 0x2b73c65fe700 -> 23
+thread 0x2b73c67ff700 -> 24
+thread 0x2b73c6a00700 -> 25
+thread 0x2b73c6c01700 -> 26
+thread 0x2b73c6e02700 -> 27
+thread 0x2b73c7003700 -> 28
+thread 0x2b73c7204700 -> 29
+thread 0x2b73c7405700 -> 30
+thread 0x2b73c7606700 -> 31
+thread 0x2b73c7807700 -> 32
+thread 0x2b73c7a08700 -> 33
+thread 0x2b73c7c09700 -> 34
+thread 0x2b73c7e0a700 -> 35
+thread 0x2b73c800b700 -> 36
+thread 0x2b73c820c700 -> 37
+thread 0x2b73c840d700 -> 38
+thread 0x2b73c860e700 -> 39
+thread 0x2b73c880f700 -> 40
+thread 0x2b73c8a10700 -> 41
+thread 0x2b73c8c11700 -> 42
+thread 0x2b73c8e12700 -> 43
+thread 0x2b73c9013700 -> 44
+thread 0x2b73c9214700 -> 45
+thread 0x2b73cd2b8700 -> 46
+thread 0x2b73cd4b9700 -> 47
+thread 0x2b73cd6ba700 -> 48
+thread 0x2b73cd8bb700 -> 49
+thread 0x2b73cdabc700 -> 50
+thread 0x2b73cdcbd700 -> 51
+thread 0x2b73cdebe700 -> 52
+thread 0x2b73ce0bf700 -> 53
+thread 0x2b73ce2c0700 -> 54
+thread 0x2b73ce4c1700 -> 55
+thread 0x2b73ce6c2700 -> 56
+thread 0x2b73ce8c3700 -> 57
+thread 0x2b73ceac4700 -> 58
+thread 0x2b73cecc5700 -> 59
+thread 0x2b73ceec6700 -> 60
+thread 0x2b73cf0c7700 -> 61
+thread 0x2b73cf2c8700 -> 62
+thread 0x2b73cf4c9700 -> 63
+Average time ALBUS (tot_dur/: 900): 181.249 µs
+2586 923269 8011362
+thread 0x2b44d8f03d00 -> 0
+thread 0x2b44da608700 -> 1
+thread 0x2b44da809700 -> 2
+thread 0x2b44daa0a700 -> 3
+thread 0x2b44dac0b700 -> 4
+thread 0x2b44dae0c700 -> 5
+thread 0x2b44db00d700 -> 6
+thread 0x2b44db20e700 -> 7
+thread 0x2b44db40f700 -> 8
+thread 0x2b44db610700 -> 9
+thread 0x2b44db811700 -> 10
+thread 0x2b44dba12700 -> 11
+thread 0x2b44dbc13700 -> 12
+thread 0x2b44dbe14700 -> 13
+thread 0x2b44dc015700 -> 14
+thread 0x2b44dc216700 -> 15
+thread 0x2b44dc417700 -> 16
+thread 0x2b44dc618700 -> 17
+thread 0x2b44dc819700 -> 18
+thread 0x2b44dca1a700 -> 19
+thread 0x2b44dcc1b700 -> 20
+thread 0x2b44dce1c700 -> 21
+thread 0x2b44dd01d700 -> 22
+thread 0x2b44dd21e700 -> 23
+thread 0x2b44dd41f700 -> 24
+thread 0x2b44dd620700 -> 25
+thread 0x2b44dd821700 -> 26
+thread 0x2b44dda22700 -> 27
+thread 0x2b44ddc23700 -> 28
+thread 0x2b44dde24700 -> 29
+thread 0x2b44de025700 -> 30
+thread 0x2b44de226700 -> 31
+thread 0x2b44de427700 -> 32
+thread 0x2b44de628700 -> 33
+thread 0x2b44de829700 -> 34
+thread 0x2b44dea2a700 -> 35
+thread 0x2b44dec2b700 -> 36
+thread 0x2b44dee2c700 -> 37
+thread 0x2b44df02d700 -> 38
+thread 0x2b44df22e700 -> 39
+thread 0x2b44df42f700 -> 40
+thread 0x2b44df630700 -> 41
+thread 0x2b44df831700 -> 42
+thread 0x2b44dfa32700 -> 43
+thread 0x2b44dfc33700 -> 44
+thread 0x2b44dfe34700 -> 45
+thread 0x2b44e3ed8700 -> 46
+thread 0x2b44e40d9700 -> 47
+thread 0x2b44e42da700 -> 48
+thread 0x2b44e44db700 -> 49
+thread 0x2b44e46dc700 -> 50
+thread 0x2b44e48dd700 -> 51
+thread 0x2b44e4ade700 -> 52
+thread 0x2b44e4cdf700 -> 53
+thread 0x2b44e4ee0700 -> 54
+thread 0x2b44e50e1700 -> 55
+thread 0x2b44e52e2700 -> 56
+thread 0x2b44e54e3700 -> 57
+thread 0x2b44e56e4700 -> 58
+thread 0x2b44e58e5700 -> 59
+thread 0x2b44e5ae6700 -> 60
+thread 0x2b44e5ce7700 -> 61
+thread 0x2b44e5ee8700 -> 62
+thread 0x2b44e60e9700 -> 63
+Average time ALBUS (tot_dur/: 900): 170.862 µs
+2586 923269 8011362
+thread 0x2af86d7d3d00 -> 0
+thread 0x2af86eed8700 -> 1
+thread 0x2af86f0d9700 -> 2
+thread 0x2af86f2da700 -> 3
+thread 0x2af86f4db700 -> 4
+thread 0x2af86f6dc700 -> 5
+thread 0x2af86f8dd700 -> 6
+thread 0x2af86fade700 -> 7
+thread 0x2af86fcdf700 -> 8
+thread 0x2af86fee0700 -> 9
+thread 0x2af8700e1700 -> 10
+thread 0x2af8702e2700 -> 11
+thread 0x2af8704e3700 -> 12
+thread 0x2af8706e4700 -> 13
+thread 0x2af8708e5700 -> 14
+thread 0x2af870ae6700 -> 15
+thread 0x2af870ce7700 -> 16
+thread 0x2af870ee8700 -> 17
+thread 0x2af8710e9700 -> 18
+thread 0x2af8712ea700 -> 19
+thread 0x2af8714eb700 -> 20
+thread 0x2af8716ec700 -> 21
+thread 0x2af8718ed700 -> 22
+thread 0x2af871aee700 -> 23
+thread 0x2af871cef700 -> 24
+thread 0x2af871ef0700 -> 25
+thread 0x2af8720f1700 -> 26
+thread 0x2af8722f2700 -> 27
+thread 0x2af8724f3700 -> 28
+thread 0x2af8726f4700 -> 29
+thread 0x2af8728f5700 -> 30
+thread 0x2af872af6700 -> 31
+thread 0x2af872cf7700 -> 32
+thread 0x2af872ef8700 -> 33
+thread 0x2af8730f9700 -> 34
+thread 0x2af8732fa700 -> 35
+thread 0x2af8734fb700 -> 36
+thread 0x2af8736fc700 -> 37
+thread 0x2af8738fd700 -> 38
+thread 0x2af873afe700 -> 39
+thread 0x2af873cff700 -> 40
+thread 0x2af873f00700 -> 41
+thread 0x2af874101700 -> 42
+thread 0x2af874302700 -> 43
+thread 0x2af874503700 -> 44
+thread 0x2af874704700 -> 45
+thread 0x2af8787a8700 -> 46
+thread 0x2af8789a9700 -> 47
+thread 0x2af878baa700 -> 48
+thread 0x2af878dab700 -> 49
+thread 0x2af878fac700 -> 50
+thread 0x2af8791ad700 -> 51
+thread 0x2af8793ae700 -> 52
+thread 0x2af8795af700 -> 53
+thread 0x2af8797b0700 -> 54
+thread 0x2af8799b1700 -> 55
+thread 0x2af879bb2700 -> 56
+thread 0x2af879db3700 -> 57
+thread 0x2af879fb4700 -> 58
+thread 0x2af87a1b5700 -> 59
+thread 0x2af87a3b6700 -> 60
+thread 0x2af87a5b7700 -> 61
+thread 0x2af87a7b8700 -> 62
+thread 0x2af87a9b9700 -> 63
+Average time ALBUS (tot_dur/: 900): 171.295 µs
+2586 923269 8011362
+thread 0x2b428c569d00 -> 0
+thread 0x2b428dc6e700 -> 1
+thread 0x2b428de6f700 -> 2
+thread 0x2b428e070700 -> 3
+thread 0x2b428e271700 -> 4
+thread 0x2b428e472700 -> 5
+thread 0x2b428e673700 -> 6
+thread 0x2b428e874700 -> 7
+thread 0x2b428ea75700 -> 8
+thread 0x2b428ec76700 -> 9
+thread 0x2b428ee77700 -> 10
+thread 0x2b428f078700 -> 11
+thread 0x2b428f279700 -> 12
+thread 0x2b428f47a700 -> 13
+thread 0x2b428f67b700 -> 14
+thread 0x2b428f87c700 -> 15
+thread 0x2b428fa7d700 -> 16
+thread 0x2b428fc7e700 -> 17
+thread 0x2b428fe7f700 -> 18
+thread 0x2b4290080700 -> 19
+thread 0x2b4290281700 -> 20
+thread 0x2b4290482700 -> 21
+thread 0x2b4290683700 -> 22
+thread 0x2b4290884700 -> 23
+thread 0x2b4290a85700 -> 24
+thread 0x2b4290c86700 -> 25
+thread 0x2b4290e87700 -> 26
+thread 0x2b4291088700 -> 27
+thread 0x2b4291289700 -> 28
+thread 0x2b429148a700 -> 29
+thread 0x2b429168b700 -> 30
+thread 0x2b429188c700 -> 31
+thread 0x2b4291a8d700 -> 32
+thread 0x2b4291c8e700 -> 33
+thread 0x2b4291e8f700 -> 34
+thread 0x2b4292090700 -> 35
+thread 0x2b4292291700 -> 36
+thread 0x2b4292492700 -> 37
+thread 0x2b4292693700 -> 38
+thread 0x2b4292894700 -> 39
+thread 0x2b4292a95700 -> 40
+thread 0x2b4292c96700 -> 41
+thread 0x2b4292e97700 -> 42
+thread 0x2b4293098700 -> 43
+thread 0x2b4293299700 -> 44
+thread 0x2b429349a700 -> 45
+thread 0x2b429753e700 -> 46
+thread 0x2b429773f700 -> 47
+thread 0x2b4297940700 -> 48
+thread 0x2b4297b41700 -> 49
+thread 0x2b4297d42700 -> 50
+thread 0x2b4297f43700 -> 51
+thread 0x2b4298144700 -> 52
+thread 0x2b4298345700 -> 53
+thread 0x2b4298546700 -> 54
+thread 0x2b4298747700 -> 55
+thread 0x2b4298948700 -> 56
+thread 0x2b4298b49700 -> 57
+thread 0x2b4298d4a700 -> 58
+thread 0x2b4298f4b700 -> 59
+thread 0x2b429914c700 -> 60
+thread 0x2b429934d700 -> 61
+thread 0x2b429954e700 -> 62
+thread 0x2b429974f700 -> 63
+Average time ALBUS (tot_dur/: 900): 174.411 µs
+2586 923269 8011362
+thread 0x2af3c4cb9d00 -> 0
+thread 0x2af3c63be700 -> 1
+thread 0x2af3c65bf700 -> 2
+thread 0x2af3c67c0700 -> 3
+thread 0x2af3c69c1700 -> 4
+thread 0x2af3c6bc2700 -> 5
+thread 0x2af3c6dc3700 -> 6
+thread 0x2af3c6fc4700 -> 7
+thread 0x2af3c71c5700 -> 8
+thread 0x2af3c73c6700 -> 9
+thread 0x2af3c75c7700 -> 10
+thread 0x2af3c77c8700 -> 11
+thread 0x2af3c79c9700 -> 12
+thread 0x2af3c7bca700 -> 13
+thread 0x2af3c7dcb700 -> 14
+thread 0x2af3c7fcc700 -> 15
+thread 0x2af3c81cd700 -> 16
+thread 0x2af3c83ce700 -> 17
+thread 0x2af3c85cf700 -> 18
+thread 0x2af3c87d0700 -> 19
+thread 0x2af3c89d1700 -> 20
+thread 0x2af3c8bd2700 -> 21
+thread 0x2af3c8dd3700 -> 22
+thread 0x2af3c8fd4700 -> 23
+thread 0x2af3c91d5700 -> 24
+thread 0x2af3c93d6700 -> 25
+thread 0x2af3c95d7700 -> 26
+thread 0x2af3c97d8700 -> 27
+thread 0x2af3c99d9700 -> 28
+thread 0x2af3c9bda700 -> 29
+thread 0x2af3c9ddb700 -> 30
+thread 0x2af3c9fdc700 -> 31
+thread 0x2af3ca1dd700 -> 32
+thread 0x2af3ca3de700 -> 33
+thread 0x2af3ca5df700 -> 34
+thread 0x2af3ca7e0700 -> 35
+thread 0x2af3ca9e1700 -> 36
+thread 0x2af3cabe2700 -> 37
+thread 0x2af3cade3700 -> 38
+thread 0x2af3cafe4700 -> 39
+thread 0x2af3cb1e5700 -> 40
+thread 0x2af3cb3e6700 -> 41
+thread 0x2af3cb5e7700 -> 42
+thread 0x2af3cb7e8700 -> 43
+thread 0x2af3cb9e9700 -> 44
+thread 0x2af3cbbea700 -> 45
+thread 0x2af3cfc8e700 -> 46
+thread 0x2af3cfe8f700 -> 47
+thread 0x2af3d0090700 -> 48
+thread 0x2af3d0291700 -> 49
+thread 0x2af3d0492700 -> 50
+thread 0x2af3d0693700 -> 51
+thread 0x2af3d0894700 -> 52
+thread 0x2af3d0a95700 -> 53
+thread 0x2af3d0c96700 -> 54
+thread 0x2af3d0e97700 -> 55
+thread 0x2af3d1098700 -> 56
+thread 0x2af3d1299700 -> 57
+thread 0x2af3d149a700 -> 58
+thread 0x2af3d169b700 -> 59
+thread 0x2af3d189c700 -> 60
+thread 0x2af3d1a9d700 -> 61
+thread 0x2af3d1c9e700 -> 62
+thread 0x2af3d1e9f700 -> 63
+Average time ALBUS (tot_dur/: 900): 172.216 µs
+
+ Performance counter stats for './parcoD1_albus.exe rail2586.mtx' (5 runs):
+
+    40,756,679,931      cycles:u                  #    2.999 GHz                      ( +-  0.76% )
+    30,468,997,263      instructions:u            #    0.75  insn per cycle           ( +-  0.16% )
+     4,130,301,277      branches:u                #  303.936 M/sec                    ( +-  0.34% )
+         6,206,647      branch-misses:u           #    0.15% of all branches          ( +-  0.12% )
+     2,717,086,045      cache-references:u        #  199.942 M/sec                    ( +-  0.04% )
+        10,063,049      cache-misses:u            #    0.370 % of all cache refs      ( +-  6.75% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+         13,589.39 msec task-clock:u              #    8.674 CPUs utilized            ( +-  0.96% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             3,922      page-faults:u             #    0.289 K/sec                    ( +-  2.53% )
+
+            1.5667 +- 0.0347 seconds time elapsed  ( +-  2.21% )
+

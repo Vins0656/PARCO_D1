@@ -1,0 +1,834 @@
+=== Matrix: rail2586.mtx ===
+--- EXE=parcoD1_dynamic.exe T=1 ---
+2586 923269 8011362
+Average time OMP dynamic (tot_dur/: 200): 13234.9 µs
+2586 923269 8011362
+Average time OMP dynamic (tot_dur/: 200): 13485.3 µs
+2586 923269 8011362
+Average time OMP dynamic (tot_dur/: 200): 13485 µs
+2586 923269 8011362
+Average time OMP dynamic (tot_dur/: 200): 13496.5 µs
+2586 923269 8011362
+Average time OMP dynamic (tot_dur/: 200): 13498.3 µs
+
+ Performance counter stats for './parcoD1_dynamic.exe rail2586.mtx' (5 runs):
+
+    13,658,881,518      cycles:u                  #    3.137 GHz                      ( +-  0.11% )
+    15,909,580,535      instructions:u            #    1.16  insn per cycle           ( +-  0.00% )
+     2,924,098,218      branches:u                #  671.657 M/sec                    ( +-  0.00% )
+         3,908,124      branch-misses:u           #    0.13% of all branches          ( +-  0.56% )
+       604,237,742      cache-references:u        #  138.792 M/sec                    ( +-  0.07% )
+       122,387,625      cache-misses:u            #   20.255 % of all cache refs      ( +-  0.17% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          4,353.56 msec task-clock:u              #    0.995 CPUs utilized            ( +-  0.28% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,998      page-faults:u             #    0.002 M/sec                    ( +-  4.27% )
+
+            4.3759 +- 0.0147 seconds time elapsed  ( +-  0.34% )
+
+--- EXE=parcoD1_dynamic.exe T=2 ---
+2586 923269 8011362
+thread 0x2b9ac20d4d00 -> 0
+thread 0x2b9ac37d8700 -> 1
+Average time OMP dynamic (tot_dur/: 200): 8649.29 µs
+2586 923269 8011362
+thread 0x2aff1ca50d00 -> 0
+thread 0x2aff1e154700 -> 1
+Average time OMP dynamic (tot_dur/: 200): 8627.9 µs
+2586 923269 8011362
+thread 0x2aac28f74d00 -> 0
+thread 0x2aac2a678700 -> 1
+Average time OMP dynamic (tot_dur/: 200): 8935.53 µs
+2586 923269 8011362
+thread 0x2ad74e3ead00 -> 0
+thread 0x2ad74faee700 -> 1
+Average time OMP dynamic (tot_dur/: 200): 9051.1 µs
+2586 923269 8011362
+thread 0x2afac2e4ed00 -> 0
+thread 0x2afac4552700 -> 1
+Average time OMP dynamic (tot_dur/: 200): 8482.54 µs
+
+ Performance counter stats for './parcoD1_dynamic.exe rail2586.mtx' (5 runs):
+
+    15,963,461,003      cycles:u                  #    3.087 GHz                      ( +-  0.14% )
+    16,267,866,201      instructions:u            #    1.02  insn per cycle           ( +-  0.00% )
+     3,026,458,399      branches:u                #  585.231 M/sec                    ( +-  0.00% )
+         3,836,778      branch-misses:u           #    0.13% of all branches          ( +-  0.63% )
+       606,807,511      cache-references:u        #  117.339 M/sec                    ( +-  0.14% )
+       116,260,812      cache-misses:u            #   19.159 % of all cache refs      ( +-  0.23% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          5,171.39 msec task-clock:u              #    1.514 CPUs utilized            ( +-  1.01% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             4,943      page-faults:u             #    0.956 K/sec                    ( +-  5.05% )
+
+            3.4163 +- 0.0332 seconds time elapsed  ( +-  0.97% )
+
+--- EXE=parcoD1_dynamic.exe T=4 ---
+2586 923269 8011362
+thread 0x2b8068df7d00 -> 0
+thread 0x2b806a4fb700 -> 1
+thread 0x2b806a6fc700 -> 2
+thread 0x2b806a8fd700 -> 3
+Average time OMP dynamic (tot_dur/: 300): 5190.18 µs
+2586 923269 8011362
+thread 0x2b82b7c1ad00 -> 0
+thread 0x2b82b931e700 -> 1
+thread 0x2b82b951f700 -> 2
+thread 0x2b82b9720700 -> 3
+Average time OMP dynamic (tot_dur/: 300): 4969.15 µs
+2586 923269 8011362
+thread 0x2b026085cd00 -> 0
+thread 0x2b0261f60700 -> 1
+thread 0x2b0262161700 -> 2
+thread 0x2b0262362700 -> 3
+Average time OMP dynamic (tot_dur/: 300): 5196.55 µs
+2586 923269 8011362
+thread 0x2b13a6289d00 -> 0
+thread 0x2b13a798d700 -> 1
+thread 0x2b13a7b8e700 -> 2
+thread 0x2b13a7d8f700 -> 3
+Average time OMP dynamic (tot_dur/: 300): 5020.87 µs
+2586 923269 8011362
+thread 0x2b6d7ebaad00 -> 0
+thread 0x2b6d802ae700 -> 1
+thread 0x2b6d804af700 -> 2
+thread 0x2b6d806b0700 -> 3
+Average time OMP dynamic (tot_dur/: 300): 4914.1 µs
+
+ Performance counter stats for './parcoD1_dynamic.exe rail2586.mtx' (5 runs):
+
+    23,272,754,889      cycles:u                  #    3.064 GHz                      ( +-  0.04% )
+    18,561,311,167      instructions:u            #    0.80  insn per cycle           ( +-  0.01% )
+     3,262,194,489      branches:u                #  429.432 M/sec                    ( +-  0.01% )
+         4,410,312      branch-misses:u           #    0.14% of all branches          ( +-  0.44% )
+       900,729,692      cache-references:u        #  118.571 M/sec                    ( +-  0.09% )
+       169,095,840      cache-misses:u            #   18.773 % of all cache refs      ( +-  0.12% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+          7,596.54 msec task-clock:u              #    2.396 CPUs utilized            ( +-  0.98% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,381      page-faults:u             #    0.708 K/sec                    ( +-  3.73% )
+
+            3.1709 +- 0.0234 seconds time elapsed  ( +-  0.74% )
+
+--- EXE=parcoD1_dynamic.exe T=8 ---
+2586 923269 8011362
+thread 0x2b72239e2d00 -> 0
+thread 0x2b72250e6700 -> 1
+thread 0x2b72252e7700 -> 2
+thread 0x2b72254e8700 -> 3
+thread 0x2b72256e9700 -> 4
+thread 0x2b72258ea700 -> 5
+thread 0x2b7225aeb700 -> 6
+thread 0x2b7225cec700 -> 7
+Average time OMP dynamic (tot_dur/: 300): 5158.54 µs
+2586 923269 8011362
+thread 0x2b88dd4dfd00 -> 0
+thread 0x2b88debe3700 -> 1
+thread 0x2b88dede4700 -> 2
+thread 0x2b88defe5700 -> 3
+thread 0x2b88df1e6700 -> 4
+thread 0x2b88df3e7700 -> 5
+thread 0x2b88df5e8700 -> 6
+thread 0x2b88df7e9700 -> 7
+Average time OMP dynamic (tot_dur/: 300): 5159.66 µs
+2586 923269 8011362
+thread 0x2b1700fe1d00 -> 0
+thread 0x2b17026e5700 -> 1
+thread 0x2b17028e6700 -> 2
+thread 0x2b1702ae7700 -> 3
+thread 0x2b1702ce8700 -> 4
+thread 0x2b1702ee9700 -> 5
+thread 0x2b17030ea700 -> 6
+thread 0x2b17032eb700 -> 7
+Average time OMP dynamic (tot_dur/: 300): 5167.63 µs
+2586 923269 8011362
+thread 0x2b0e1854cd00 -> 0
+thread 0x2b0e19c50700 -> 1
+thread 0x2b0e19e51700 -> 2
+thread 0x2b0e1a052700 -> 3
+thread 0x2b0e1a253700 -> 4
+thread 0x2b0e1a454700 -> 5
+thread 0x2b0e1a655700 -> 6
+thread 0x2b0e1a856700 -> 7
+Average time OMP dynamic (tot_dur/: 300): 5172.06 µs
+2586 923269 8011362
+thread 0x2b3a364e9d00 -> 0
+thread 0x2b3a37bed700 -> 1
+thread 0x2b3a37dee700 -> 2
+thread 0x2b3a37fef700 -> 3
+thread 0x2b3a381f0700 -> 4
+thread 0x2b3a383f1700 -> 5
+thread 0x2b3a385f2700 -> 6
+thread 0x2b3a387f3700 -> 7
+Average time OMP dynamic (tot_dur/: 300): 5176.08 µs
+
+ Performance counter stats for './parcoD1_dynamic.exe rail2586.mtx' (5 runs):
+
+    40,170,869,871      cycles:u                  #    2.999 GHz                      ( +-  0.08% )
+    21,111,026,660      instructions:u            #    0.53  insn per cycle           ( +-  0.02% )
+     3,990,642,636      branches:u                #  297.965 M/sec                    ( +-  0.03% )
+         4,450,281      branch-misses:u           #    0.11% of all branches          ( +-  0.11% )
+       898,321,661      cache-references:u        #   67.074 M/sec                    ( +-  0.04% )
+       167,820,902      cache-misses:u            #   18.682 % of all cache refs      ( +-  0.06% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+         13,392.98 msec task-clock:u              #    4.167 CPUs utilized            ( +-  0.16% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             4,997      page-faults:u             #    0.373 K/sec                    ( +-  5.06% )
+
+            3.2142 +- 0.0136 seconds time elapsed  ( +-  0.42% )
+
+--- EXE=parcoD1_dynamic.exe T=16 ---
+2586 923269 8011362
+thread 0x2b3ad54eed00 -> 0
+thread 0x2b3ad6bf2700 -> 1
+thread 0x2b3ad6df3700 -> 2
+thread 0x2b3ad6ff4700 -> 3
+thread 0x2b3ad71f5700 -> 4
+thread 0x2b3ad73f6700 -> 5
+thread 0x2b3ad75f7700 -> 6
+thread 0x2b3ad77f8700 -> 7
+thread 0x2b3ad79f9700 -> 8
+thread 0x2b3ad7bfa700 -> 9
+thread 0x2b3ad7dfb700 -> 10
+thread 0x2b3ad7ffc700 -> 11
+thread 0x2b3ad81fd700 -> 12
+thread 0x2b3ad83fe700 -> 13
+thread 0x2b3ad85ff700 -> 14
+thread 0x2b3ad8800700 -> 15
+Average time OMP dynamic (tot_dur/: 500): 5193.16 µs
+2586 923269 8011362
+thread 0x2b453b3cbd00 -> 0
+thread 0x2b453cacf700 -> 1
+thread 0x2b453ccd0700 -> 2
+thread 0x2b453ced1700 -> 3
+thread 0x2b453d0d2700 -> 4
+thread 0x2b453d2d3700 -> 5
+thread 0x2b453d4d4700 -> 6
+thread 0x2b453d6d5700 -> 7
+thread 0x2b453d8d6700 -> 8
+thread 0x2b453dad7700 -> 9
+thread 0x2b453dcd8700 -> 10
+thread 0x2b453ded9700 -> 11
+thread 0x2b453e0da700 -> 12
+thread 0x2b453e2db700 -> 13
+thread 0x2b453e4dc700 -> 14
+thread 0x2b453e6dd700 -> 15
+Average time OMP dynamic (tot_dur/: 500): 5183.62 µs
+2586 923269 8011362
+thread 0x2aecc84f2d00 -> 0
+thread 0x2aecc9bf6700 -> 1
+thread 0x2aecc9df7700 -> 2
+thread 0x2aecc9ff8700 -> 3
+thread 0x2aecca1f9700 -> 4
+thread 0x2aecca3fa700 -> 5
+thread 0x2aecca5fb700 -> 6
+thread 0x2aecca7fc700 -> 7
+thread 0x2aecca9fd700 -> 8
+thread 0x2aeccabfe700 -> 9
+thread 0x2aeccadff700 -> 10
+thread 0x2aeccb000700 -> 11
+thread 0x2aeccb201700 -> 12
+thread 0x2aeccb402700 -> 13
+thread 0x2aeccb603700 -> 14
+thread 0x2aeccb804700 -> 15
+Average time OMP dynamic (tot_dur/: 500): 5188.89 µs
+2586 923269 8011362
+thread 0x2aac839e9d00 -> 0
+thread 0x2aac850ed700 -> 1
+thread 0x2aac852ee700 -> 2
+thread 0x2aac854ef700 -> 3
+thread 0x2aac856f0700 -> 4
+thread 0x2aac858f1700 -> 5
+thread 0x2aac85af2700 -> 6
+thread 0x2aac85cf3700 -> 7
+thread 0x2aac85ef4700 -> 8
+thread 0x2aac860f5700 -> 9
+thread 0x2aac862f6700 -> 10
+thread 0x2aac864f7700 -> 11
+thread 0x2aac866f8700 -> 12
+thread 0x2aac868f9700 -> 13
+thread 0x2aac86afa700 -> 14
+thread 0x2aac86cfb700 -> 15
+Average time OMP dynamic (tot_dur/: 500): 5197.7 µs
+2586 923269 8011362
+thread 0x2b61dafa3d00 -> 0
+thread 0x2b61dc6a7700 -> 1
+thread 0x2b61dc8a8700 -> 2
+thread 0x2b61dcaa9700 -> 3
+thread 0x2b61dccaa700 -> 4
+thread 0x2b61dceab700 -> 5
+thread 0x2b61dd0ac700 -> 6
+thread 0x2b61dd2ad700 -> 7
+thread 0x2b61dd4ae700 -> 8
+thread 0x2b61dd6af700 -> 9
+thread 0x2b61dd8b0700 -> 10
+thread 0x2b61ddab1700 -> 11
+thread 0x2b61ddcb2700 -> 12
+thread 0x2b61ddeb3700 -> 13
+thread 0x2b61de0b4700 -> 14
+thread 0x2b61de2b5700 -> 15
+Average time OMP dynamic (tot_dur/: 500): 5177.56 µs
+
+ Performance counter stats for './parcoD1_dynamic.exe rail2586.mtx' (5 runs):
+
+   119,831,543,438      cycles:u                  #    2.991 GHz                      ( +-  0.04% )
+    35,475,418,172      instructions:u            #    0.30  insn per cycle           ( +-  0.01% )
+     7,255,555,189      branches:u                #  181.121 M/sec                    ( +-  0.02% )
+         5,498,228      branch-misses:u           #    0.08% of all branches          ( +-  0.03% )
+     1,484,450,727      cache-references:u        #   37.056 M/sec                    ( +-  0.04% )
+       275,093,585      cache-misses:u            #   18.532 % of all cache refs      ( +-  0.05% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+         40,059.24 msec task-clock:u              #    9.482 CPUs utilized            ( +-  0.02% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,260      page-faults:u             #    0.131 K/sec                    ( +-  4.74% )
+
+           4.22488 +- 0.00365 seconds time elapsed  ( +-  0.09% )
+
+--- EXE=parcoD1_dynamic.exe T=32 ---
+2586 923269 8011362
+thread 0x2b1dd1a1fd00 -> 0
+thread 0x2b1dd3123700 -> 1
+thread 0x2b1dd3324700 -> 2
+thread 0x2b1dd3525700 -> 3
+thread 0x2b1dd3726700 -> 4
+thread 0x2b1dd3927700 -> 5
+thread 0x2b1dd3b28700 -> 6
+thread 0x2b1dd3d29700 -> 7
+thread 0x2b1dd3f2a700 -> 8
+thread 0x2b1dd412b700 -> 9
+thread 0x2b1dd432c700 -> 10
+thread 0x2b1dd452d700 -> 11
+thread 0x2b1dd472e700 -> 12
+thread 0x2b1dd492f700 -> 13
+thread 0x2b1dd4b30700 -> 14
+thread 0x2b1dd4d31700 -> 15
+thread 0x2b1dd4f32700 -> 16
+thread 0x2b1dd5133700 -> 17
+thread 0x2b1dd5334700 -> 18
+thread 0x2b1dd5535700 -> 19
+thread 0x2b1dd5736700 -> 20
+thread 0x2b1dd5937700 -> 21
+thread 0x2b1dd5b38700 -> 22
+thread 0x2b1dd5d39700 -> 23
+thread 0x2b1dd5f3a700 -> 24
+thread 0x2b1dd613b700 -> 25
+thread 0x2b1dd633c700 -> 26
+thread 0x2b1dd653d700 -> 27
+thread 0x2b1dd673e700 -> 28
+thread 0x2b1dd693f700 -> 29
+thread 0x2b1dd6b40700 -> 30
+thread 0x2b1dd6d41700 -> 31
+Average time OMP dynamic (tot_dur/: 600): 5569.54 µs
+2586 923269 8011362
+thread 0x2abf3b64cd00 -> 0
+thread 0x2abf3cd50700 -> 1
+thread 0x2abf3cf51700 -> 2
+thread 0x2abf3d152700 -> 3
+thread 0x2abf3d353700 -> 4
+thread 0x2abf3d554700 -> 5
+thread 0x2abf3d755700 -> 6
+thread 0x2abf3d956700 -> 7
+thread 0x2abf3db57700 -> 8
+thread 0x2abf3dd58700 -> 9
+thread 0x2abf3df59700 -> 10
+thread 0x2abf3e15a700 -> 11
+thread 0x2abf3e35b700 -> 12
+thread 0x2abf3e55c700 -> 13
+thread 0x2abf3e75d700 -> 14
+thread 0x2abf3e95e700 -> 15
+thread 0x2abf3eb5f700 -> 16
+thread 0x2abf3ed60700 -> 17
+thread 0x2abf3ef61700 -> 18
+thread 0x2abf3f162700 -> 19
+thread 0x2abf3f363700 -> 20
+thread 0x2abf3f564700 -> 21
+thread 0x2abf3f765700 -> 22
+thread 0x2abf3f966700 -> 23
+thread 0x2abf3fb67700 -> 24
+thread 0x2abf3fd68700 -> 25
+thread 0x2abf3ff69700 -> 26
+thread 0x2abf4016a700 -> 27
+thread 0x2abf4036b700 -> 28
+thread 0x2abf4056c700 -> 29
+thread 0x2abf4076d700 -> 30
+thread 0x2abf4096e700 -> 31
+Average time OMP dynamic (tot_dur/: 600): 5441.07 µs
+2586 923269 8011362
+thread 0x2b7e2cfafd00 -> 0
+thread 0x2b7e2e6b3700 -> 1
+thread 0x2b7e2e8b4700 -> 2
+thread 0x2b7e2eab5700 -> 3
+thread 0x2b7e2ecb6700 -> 4
+thread 0x2b7e2eeb7700 -> 5
+thread 0x2b7e2f0b8700 -> 6
+thread 0x2b7e2f2b9700 -> 7
+thread 0x2b7e2f4ba700 -> 8
+thread 0x2b7e2f6bb700 -> 9
+thread 0x2b7e2f8bc700 -> 10
+thread 0x2b7e2fabd700 -> 11
+thread 0x2b7e2fcbe700 -> 12
+thread 0x2b7e2febf700 -> 13
+thread 0x2b7e300c0700 -> 14
+thread 0x2b7e302c1700 -> 15
+thread 0x2b7e304c2700 -> 16
+thread 0x2b7e306c3700 -> 17
+thread 0x2b7e308c4700 -> 18
+thread 0x2b7e30ac5700 -> 19
+thread 0x2b7e30cc6700 -> 20
+thread 0x2b7e30ec7700 -> 21
+thread 0x2b7e310c8700 -> 22
+thread 0x2b7e312c9700 -> 23
+thread 0x2b7e314ca700 -> 24
+thread 0x2b7e316cb700 -> 25
+thread 0x2b7e318cc700 -> 26
+thread 0x2b7e31acd700 -> 27
+thread 0x2b7e31cce700 -> 28
+thread 0x2b7e31ecf700 -> 29
+thread 0x2b7e320d0700 -> 30
+thread 0x2b7e322d1700 -> 31
+Average time OMP dynamic (tot_dur/: 600): 5447.86 µs
+2586 923269 8011362
+thread 0x2b5fb4758d00 -> 0
+thread 0x2b5fb5e5c700 -> 1
+thread 0x2b5fb605d700 -> 2
+thread 0x2b5fb625e700 -> 3
+thread 0x2b5fb645f700 -> 4
+thread 0x2b5fb6660700 -> 5
+thread 0x2b5fb6861700 -> 6
+thread 0x2b5fb6a62700 -> 7
+thread 0x2b5fb6c63700 -> 8
+thread 0x2b5fb6e64700 -> 9
+thread 0x2b5fb7065700 -> 10
+thread 0x2b5fb7266700 -> 11
+thread 0x2b5fb7467700 -> 12
+thread 0x2b5fb7668700 -> 13
+thread 0x2b5fb7869700 -> 14
+thread 0x2b5fb7a6a700 -> 15
+thread 0x2b5fb7c6b700 -> 16
+thread 0x2b5fb7e6c700 -> 17
+thread 0x2b5fb806d700 -> 18
+thread 0x2b5fb826e700 -> 19
+thread 0x2b5fb846f700 -> 20
+thread 0x2b5fb8670700 -> 21
+thread 0x2b5fb8871700 -> 22
+thread 0x2b5fb8a72700 -> 23
+thread 0x2b5fb8c73700 -> 24
+thread 0x2b5fb8e74700 -> 25
+thread 0x2b5fb9075700 -> 26
+thread 0x2b5fb9276700 -> 27
+thread 0x2b5fb9477700 -> 28
+thread 0x2b5fb9678700 -> 29
+thread 0x2b5fb9879700 -> 30
+thread 0x2b5fb9a7a700 -> 31
+Average time OMP dynamic (tot_dur/: 600): 5427.26 µs
+2586 923269 8011362
+thread 0x2ae5de0e8d00 -> 0
+thread 0x2ae5df7ec700 -> 1
+thread 0x2ae5df9ed700 -> 2
+thread 0x2ae5dfbee700 -> 3
+thread 0x2ae5dfdef700 -> 4
+thread 0x2ae5dfff0700 -> 5
+thread 0x2ae5e01f1700 -> 6
+thread 0x2ae5e03f2700 -> 7
+thread 0x2ae5e05f3700 -> 8
+thread 0x2ae5e07f4700 -> 9
+thread 0x2ae5e09f5700 -> 10
+thread 0x2ae5e0bf6700 -> 11
+thread 0x2ae5e0df7700 -> 12
+thread 0x2ae5e0ff8700 -> 13
+thread 0x2ae5e11f9700 -> 14
+thread 0x2ae5e13fa700 -> 15
+thread 0x2ae5e15fb700 -> 16
+thread 0x2ae5e17fc700 -> 17
+thread 0x2ae5e19fd700 -> 18
+thread 0x2ae5e1bfe700 -> 19
+thread 0x2ae5e1dff700 -> 20
+thread 0x2ae5e2000700 -> 21
+thread 0x2ae5e2201700 -> 22
+thread 0x2ae5e2402700 -> 23
+thread 0x2ae5e2603700 -> 24
+thread 0x2ae5e2804700 -> 25
+thread 0x2ae5e2a05700 -> 26
+thread 0x2ae5e2c06700 -> 27
+thread 0x2ae5e2e07700 -> 28
+thread 0x2ae5e3008700 -> 29
+thread 0x2ae5e3209700 -> 30
+thread 0x2ae5e340a700 -> 31
+Average time OMP dynamic (tot_dur/: 600): 5581.86 µs
+
+ Performance counter stats for './parcoD1_dynamic.exe rail2586.mtx' (5 runs):
+
+   279,798,025,159      cycles:u                  #    2.905 GHz                      ( +-  0.09% )
+    60,467,666,403      instructions:u            #    0.22  insn per cycle           ( +-  0.05% )
+    13,976,322,284      branches:u                #  145.107 M/sec                    ( +-  0.06% )
+         6,353,918      branch-misses:u           #    0.05% of all branches          ( +-  0.20% )
+     1,801,869,753      cache-references:u        #   18.708 M/sec                    ( +-  0.09% )
+       453,228,350      cache-misses:u            #   25.153 % of all cache refs      ( +-  0.36% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+         96,317.36 msec task-clock:u              #   19.710 CPUs utilized            ( +-  0.18% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,022      page-faults:u             #    0.063 K/sec                    ( +-  7.72% )
+
+            4.8867 +- 0.0382 seconds time elapsed  ( +-  0.78% )
+
+--- EXE=parcoD1_dynamic.exe T=64 ---
+2586 923269 8011362
+thread 0x2b34c7009d00 -> 0
+thread 0x2b34c870d700 -> 1
+thread 0x2b34c890e700 -> 2
+thread 0x2b34c8b0f700 -> 3
+thread 0x2b34c8d10700 -> 4
+thread 0x2b34c8f11700 -> 5
+thread 0x2b34c9112700 -> 6
+thread 0x2b34c9313700 -> 7
+thread 0x2b34c9514700 -> 8
+thread 0x2b34c9715700 -> 9
+thread 0x2b34c9916700 -> 10
+thread 0x2b34c9b17700 -> 11
+thread 0x2b34c9d18700 -> 12
+thread 0x2b34c9f19700 -> 13
+thread 0x2b34ca11a700 -> 14
+thread 0x2b34ca31b700 -> 15
+thread 0x2b34ca51c700 -> 16
+thread 0x2b34ca71d700 -> 17
+thread 0x2b34ca91e700 -> 18
+thread 0x2b34cab1f700 -> 19
+thread 0x2b34cad20700 -> 20
+thread 0x2b34caf21700 -> 21
+thread 0x2b34cb122700 -> 22
+thread 0x2b34cb323700 -> 23
+thread 0x2b34cb524700 -> 24
+thread 0x2b34cb725700 -> 25
+thread 0x2b34cb926700 -> 26
+thread 0x2b34cbb27700 -> 27
+thread 0x2b34cbd28700 -> 28
+thread 0x2b34cbf29700 -> 29
+thread 0x2b34cc12a700 -> 30
+thread 0x2b34cc32b700 -> 31
+thread 0x2b34cc52c700 -> 32
+thread 0x2b34cc72d700 -> 33
+thread 0x2b34cc92e700 -> 34
+thread 0x2b34ccb2f700 -> 35
+thread 0x2b34ccd30700 -> 36
+thread 0x2b34ccf31700 -> 37
+thread 0x2b34cd132700 -> 38
+thread 0x2b34cd333700 -> 39
+thread 0x2b34cd534700 -> 40
+thread 0x2b34cd735700 -> 41
+thread 0x2b34cd936700 -> 42
+thread 0x2b34cdb37700 -> 43
+thread 0x2b34cdd38700 -> 44
+thread 0x2b34cdf39700 -> 45
+thread 0x2b34d1fdd700 -> 46
+thread 0x2b34d21de700 -> 47
+thread 0x2b34d23df700 -> 48
+thread 0x2b34d25e0700 -> 49
+thread 0x2b34d27e1700 -> 50
+thread 0x2b34d29e2700 -> 51
+thread 0x2b34d2be3700 -> 52
+thread 0x2b34d2de4700 -> 53
+thread 0x2b34d2fe5700 -> 54
+thread 0x2b34d31e6700 -> 55
+thread 0x2b34d33e7700 -> 56
+thread 0x2b34d35e8700 -> 57
+thread 0x2b34d37e9700 -> 58
+thread 0x2b34d39ea700 -> 59
+thread 0x2b34d3beb700 -> 60
+thread 0x2b34d3dec700 -> 61
+thread 0x2b34d3fed700 -> 62
+thread 0x2b34d41ee700 -> 63
+Average time OMP dynamic (tot_dur/: 900): 5705.68 µs
+2586 923269 8011362
+thread 0x2ab64d8e6d00 -> 0
+thread 0x2ab64efea700 -> 1
+thread 0x2ab64f1eb700 -> 2
+thread 0x2ab64f3ec700 -> 3
+thread 0x2ab64f5ed700 -> 4
+thread 0x2ab64f7ee700 -> 5
+thread 0x2ab64f9ef700 -> 6
+thread 0x2ab64fbf0700 -> 7
+thread 0x2ab64fdf1700 -> 8
+thread 0x2ab64fff2700 -> 9
+thread 0x2ab6501f3700 -> 10
+thread 0x2ab6503f4700 -> 11
+thread 0x2ab6505f5700 -> 12
+thread 0x2ab6507f6700 -> 13
+thread 0x2ab6509f7700 -> 14
+thread 0x2ab650bf8700 -> 15
+thread 0x2ab650df9700 -> 16
+thread 0x2ab650ffa700 -> 17
+thread 0x2ab6511fb700 -> 18
+thread 0x2ab6513fc700 -> 19
+thread 0x2ab6515fd700 -> 20
+thread 0x2ab6517fe700 -> 21
+thread 0x2ab6519ff700 -> 22
+thread 0x2ab651c00700 -> 23
+thread 0x2ab651e01700 -> 24
+thread 0x2ab652002700 -> 25
+thread 0x2ab652203700 -> 26
+thread 0x2ab652404700 -> 27
+thread 0x2ab652605700 -> 28
+thread 0x2ab652806700 -> 29
+thread 0x2ab652a07700 -> 30
+thread 0x2ab652c08700 -> 31
+thread 0x2ab652e09700 -> 32
+thread 0x2ab65300a700 -> 33
+thread 0x2ab65320b700 -> 34
+thread 0x2ab65340c700 -> 35
+thread 0x2ab65360d700 -> 36
+thread 0x2ab65380e700 -> 37
+thread 0x2ab653a0f700 -> 38
+thread 0x2ab653c10700 -> 39
+thread 0x2ab653e11700 -> 40
+thread 0x2ab654012700 -> 41
+thread 0x2ab654213700 -> 42
+thread 0x2ab654414700 -> 43
+thread 0x2ab654615700 -> 44
+thread 0x2ab654816700 -> 45
+thread 0x2ab6588ba700 -> 46
+thread 0x2ab658abb700 -> 47
+thread 0x2ab658cbc700 -> 48
+thread 0x2ab658ebd700 -> 49
+thread 0x2ab6590be700 -> 50
+thread 0x2ab6592bf700 -> 51
+thread 0x2ab6594c0700 -> 52
+thread 0x2ab6596c1700 -> 53
+thread 0x2ab6598c2700 -> 54
+thread 0x2ab659ac3700 -> 55
+thread 0x2ab659cc4700 -> 56
+thread 0x2ab659ec5700 -> 57
+thread 0x2ab65a0c6700 -> 58
+thread 0x2ab65a2c7700 -> 59
+thread 0x2ab65a4c8700 -> 60
+thread 0x2ab65a6c9700 -> 61
+thread 0x2ab65a8ca700 -> 62
+thread 0x2ab65aacb700 -> 63
+Average time OMP dynamic (tot_dur/: 900): 5714.92 µs
+2586 923269 8011362
+thread 0x2b8bf1af2d00 -> 0
+thread 0x2b8bf31f6700 -> 1
+thread 0x2b8bf33f7700 -> 2
+thread 0x2b8bf35f8700 -> 3
+thread 0x2b8bf37f9700 -> 4
+thread 0x2b8bf39fa700 -> 5
+thread 0x2b8bf3bfb700 -> 6
+thread 0x2b8bf3dfc700 -> 7
+thread 0x2b8bf3ffd700 -> 8
+thread 0x2b8bf41fe700 -> 9
+thread 0x2b8bf43ff700 -> 10
+thread 0x2b8bf4600700 -> 11
+thread 0x2b8bf4801700 -> 12
+thread 0x2b8bf4a02700 -> 13
+thread 0x2b8bf4c03700 -> 14
+thread 0x2b8bf4e04700 -> 15
+thread 0x2b8bf5005700 -> 16
+thread 0x2b8bf5206700 -> 17
+thread 0x2b8bf5407700 -> 18
+thread 0x2b8bf5608700 -> 19
+thread 0x2b8bf5809700 -> 20
+thread 0x2b8bf5a0a700 -> 21
+thread 0x2b8bf5c0b700 -> 22
+thread 0x2b8bf5e0c700 -> 23
+thread 0x2b8bf600d700 -> 24
+thread 0x2b8bf620e700 -> 25
+thread 0x2b8bf640f700 -> 26
+thread 0x2b8bf6610700 -> 27
+thread 0x2b8bf6811700 -> 28
+thread 0x2b8bf6a12700 -> 29
+thread 0x2b8bf6c13700 -> 30
+thread 0x2b8bf6e14700 -> 31
+thread 0x2b8bf7015700 -> 32
+thread 0x2b8bf7216700 -> 33
+thread 0x2b8bf7417700 -> 34
+thread 0x2b8bf7618700 -> 35
+thread 0x2b8bf7819700 -> 36
+thread 0x2b8bf7a1a700 -> 37
+thread 0x2b8bf7c1b700 -> 38
+thread 0x2b8bf7e1c700 -> 39
+thread 0x2b8bf801d700 -> 40
+thread 0x2b8bf821e700 -> 41
+thread 0x2b8bf841f700 -> 42
+thread 0x2b8bf8620700 -> 43
+thread 0x2b8bf8821700 -> 44
+thread 0x2b8bf8a22700 -> 45
+thread 0x2b8bfcac6700 -> 46
+thread 0x2b8bfccc7700 -> 47
+thread 0x2b8bfcec8700 -> 48
+thread 0x2b8bfd0c9700 -> 49
+thread 0x2b8bfd2ca700 -> 50
+thread 0x2b8bfd4cb700 -> 51
+thread 0x2b8bfd6cc700 -> 52
+thread 0x2b8bfd8cd700 -> 53
+thread 0x2b8bfdace700 -> 54
+thread 0x2b8bfdccf700 -> 55
+thread 0x2b8bfded0700 -> 56
+thread 0x2b8bfe0d1700 -> 57
+thread 0x2b8bfe2d2700 -> 58
+thread 0x2b8bfe4d3700 -> 59
+thread 0x2b8bfe6d4700 -> 60
+thread 0x2b8bfe8d5700 -> 61
+thread 0x2b8bfead6700 -> 62
+thread 0x2b8bfecd7700 -> 63
+Average time OMP dynamic (tot_dur/: 900): 5586.8 µs
+2586 923269 8011362
+thread 0x2aae6c678d00 -> 0
+thread 0x2aae6dd7c700 -> 1
+thread 0x2aae6df7d700 -> 2
+thread 0x2aae6e17e700 -> 3
+thread 0x2aae6e37f700 -> 4
+thread 0x2aae6e580700 -> 5
+thread 0x2aae6e781700 -> 6
+thread 0x2aae6e982700 -> 7
+thread 0x2aae6eb83700 -> 8
+thread 0x2aae6ed84700 -> 9
+thread 0x2aae6ef85700 -> 10
+thread 0x2aae6f186700 -> 11
+thread 0x2aae6f387700 -> 12
+thread 0x2aae6f588700 -> 13
+thread 0x2aae6f789700 -> 14
+thread 0x2aae6f98a700 -> 15
+thread 0x2aae6fb8b700 -> 16
+thread 0x2aae6fd8c700 -> 17
+thread 0x2aae6ff8d700 -> 18
+thread 0x2aae7018e700 -> 19
+thread 0x2aae7038f700 -> 20
+thread 0x2aae70590700 -> 21
+thread 0x2aae70791700 -> 22
+thread 0x2aae70992700 -> 23
+thread 0x2aae70b93700 -> 24
+thread 0x2aae70d94700 -> 25
+thread 0x2aae70f95700 -> 26
+thread 0x2aae71196700 -> 27
+thread 0x2aae71397700 -> 28
+thread 0x2aae71598700 -> 29
+thread 0x2aae71799700 -> 30
+thread 0x2aae7199a700 -> 31
+thread 0x2aae71b9b700 -> 32
+thread 0x2aae71d9c700 -> 33
+thread 0x2aae71f9d700 -> 34
+thread 0x2aae7219e700 -> 35
+thread 0x2aae7239f700 -> 36
+thread 0x2aae725a0700 -> 37
+thread 0x2aae727a1700 -> 38
+thread 0x2aae729a2700 -> 39
+thread 0x2aae72ba3700 -> 40
+thread 0x2aae72da4700 -> 41
+thread 0x2aae72fa5700 -> 42
+thread 0x2aae731a6700 -> 43
+thread 0x2aae733a7700 -> 44
+thread 0x2aae735a8700 -> 45
+thread 0x2aae7764c700 -> 46
+thread 0x2aae7784d700 -> 47
+thread 0x2aae77a4e700 -> 48
+thread 0x2aae77c4f700 -> 49
+thread 0x2aae77e50700 -> 50
+thread 0x2aae78051700 -> 51
+thread 0x2aae78252700 -> 52
+thread 0x2aae78453700 -> 53
+thread 0x2aae78654700 -> 54
+thread 0x2aae78855700 -> 55
+thread 0x2aae78a56700 -> 56
+thread 0x2aae78c57700 -> 57
+thread 0x2aae78e58700 -> 58
+thread 0x2aae79059700 -> 59
+thread 0x2aae7925a700 -> 60
+thread 0x2aae7945b700 -> 61
+thread 0x2aae7965c700 -> 62
+thread 0x2aae7985d700 -> 63
+Average time OMP dynamic (tot_dur/: 900): 5600.84 µs
+2586 923269 8011362
+thread 0x2b818bd50d00 -> 0
+thread 0x2b818d454700 -> 1
+thread 0x2b818d655700 -> 2
+thread 0x2b818d856700 -> 3
+thread 0x2b818da57700 -> 4
+thread 0x2b818dc58700 -> 5
+thread 0x2b818de59700 -> 6
+thread 0x2b818e05a700 -> 7
+thread 0x2b818e25b700 -> 8
+thread 0x2b818e45c700 -> 9
+thread 0x2b818e65d700 -> 10
+thread 0x2b818e85e700 -> 11
+thread 0x2b818ea5f700 -> 12
+thread 0x2b818ec60700 -> 13
+thread 0x2b818ee61700 -> 14
+thread 0x2b818f062700 -> 15
+thread 0x2b818f263700 -> 16
+thread 0x2b818f464700 -> 17
+thread 0x2b818f665700 -> 18
+thread 0x2b818f866700 -> 19
+thread 0x2b818fa67700 -> 20
+thread 0x2b818fc68700 -> 21
+thread 0x2b818fe69700 -> 22
+thread 0x2b819006a700 -> 23
+thread 0x2b819026b700 -> 24
+thread 0x2b819046c700 -> 25
+thread 0x2b819066d700 -> 26
+thread 0x2b819086e700 -> 27
+thread 0x2b8190a6f700 -> 28
+thread 0x2b8190c70700 -> 29
+thread 0x2b8190e71700 -> 30
+thread 0x2b8191072700 -> 31
+thread 0x2b8191273700 -> 32
+thread 0x2b8191474700 -> 33
+thread 0x2b8191675700 -> 34
+thread 0x2b8191876700 -> 35
+thread 0x2b8191a77700 -> 36
+thread 0x2b8191c78700 -> 37
+thread 0x2b8191e79700 -> 38
+thread 0x2b819207a700 -> 39
+thread 0x2b819227b700 -> 40
+thread 0x2b819247c700 -> 41
+thread 0x2b819267d700 -> 42
+thread 0x2b819287e700 -> 43
+thread 0x2b8192a7f700 -> 44
+thread 0x2b8192c80700 -> 45
+thread 0x2b8196d24700 -> 46
+thread 0x2b8196f25700 -> 47
+thread 0x2b8197126700 -> 48
+thread 0x2b8197327700 -> 49
+thread 0x2b8197528700 -> 50
+thread 0x2b8197729700 -> 51
+thread 0x2b819792a700 -> 52
+thread 0x2b8197b2b700 -> 53
+thread 0x2b8197d2c700 -> 54
+thread 0x2b8197f2d700 -> 55
+thread 0x2b819812e700 -> 56
+thread 0x2b819832f700 -> 57
+thread 0x2b8198530700 -> 58
+thread 0x2b8198731700 -> 59
+thread 0x2b8198932700 -> 60
+thread 0x2b8198b33700 -> 61
+thread 0x2b8198d34700 -> 62
+thread 0x2b8198f35700 -> 63
+Average time OMP dynamic (tot_dur/: 900): 5626.25 µs
+
+ Performance counter stats for './parcoD1_dynamic.exe rail2586.mtx' (5 runs):
+
+   827,557,346,852      cycles:u                  #    2.872 GHz                      ( +-  0.05% )
+   145,841,217,470      instructions:u            #    0.18  insn per cycle           ( +-  0.04% )
+    37,108,993,913      branches:u                #  128.791 M/sec                    ( +-  0.04% )
+         8,627,830      branch-misses:u           #    0.02% of all branches          ( +-  0.27% )
+     2,690,314,046      cache-references:u        #    9.337 M/sec                    ( +-  0.07% )
+       655,135,153      cache-misses:u            #   24.352 % of all cache refs      ( +-  0.73% )
+   <not supported>      stalled-cycles-frontend:u                                   
+   <not supported>      stalled-cycles-backend:u                                    
+        288,132.62 msec task-clock:u              #   43.183 CPUs utilized            ( +-  0.10% )
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             7,277      page-faults:u             #    0.025 K/sec                    ( +-  8.25% )
+
+            6.6724 +- 0.0446 seconds time elapsed  ( +-  0.67% )
+

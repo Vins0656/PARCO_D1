@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# --- PBS ---
+# Nome e I/O (profilo in nome file)
+#PBS -N run_perf_matrix_sweep
+#PBS -o ./perf_spmv_albus.out
+#PBS -e ./perf_spmv_albus.err
+# Coda e walltime (adatta se necessario)
+#PBS -q short_cpuQ
+#PBS -l walltime=06:00:00
+
+# Risorse (1 nodo esclusivo, 96 core: adatta al tuo cluster)
+#PBS -l select=1:ncpus=96
+#PBS -l place=exclhost
+
+echo "--- Inizio Job PBS ---"
+echo "Nodo: $(hostname)"
+echo "Working dir: $PBS_O_WORKDIR"
+
+# Moduli (adatta)
+module load gcc91
+module load likwid-4.3.4
+module load perf
+cd "$PBS_O_WORKDIR"
+
+# Info PBS e topologia
+echo "=== PBS context ==="
+echo "JOBID=$PBS_JOBID QUEUE=$PBS_QUEUE"
+echo "NODES=$PBS_NUM_NODES PPN=$PBS_NUM_PPN NP=$PBS_NP"
+if [ -f "$PBS_NODEFILE" ]; then
+  echo "--- PBS_NODEFILE ---"
+  sort "$PBS_NODEFILE" | uniq -c
+fi
+echo "=== Topologia CPU/NUMA ==="
+lscpu
+numactl --hardware
+echo "==========================="
+
+# Parametri benchmark (passabili con qsub -v)
+export OMP_PROC_BIND="${BIND:-close}"   # close | spread
+export OMP_PLACES=cores
+export OMP_DISPLAY_ENV=FALSE
+export OMP_DISPLAY_AFFINITY=TRUE
+export OMP_AFFINITY_FORMAT="thread %i - %A"
+
+# Output separato per profilo
+export OUTDIR="${OUTDIR:-perf_out_albus_${OMP_PROC_BIND}}"
+
+# Eseguibile e argomenti del tuo benchmark
+export EXE="${EXE:-parcoD1_albus.exe}"
+
+
+echo "OMP_PROC_BIND=$OMP_PROC_BIND"
+echo "OUTDIR=$OUTDIR"
+echo "EXE=$EXE"
+echo "ARGS_BASE=$ARGS_BASE"
+
+# Avvio sweep perf (script creato prima)
+./run_perf_matrix_sweep_albus_close.sh
+
+echo "--- Fine Job PBS ---"
