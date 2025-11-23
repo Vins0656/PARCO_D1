@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# --- Impostazioni PBS ---
+
+# 1. Nome del Job (visibile nella coda)
+#PBS -N spmv_benchmark_spread
+
+# 2. File per l'output standard (stdout)
+#PBS -o ./spmv_benchmark_spread.out
+
+# 3. File per l'output d'errore (stderr)
+#PBS -e ./spmv_benchmark_spread.err
+
+# 4. Nome della coda (Queue)
+#PBS -q short_cpuQ
+
+# 5. Tempo massimo di esecuzione (Walltime)
+#PBS -l walltime=6:00:00
+
+# --- Richiesta Risorse ---
+#PBS -l select=1:ncpus=96
+
+#PBS -l  place=exclhost
+
+# --- Esecuzione del Job ---
+echo "--- Inizio Job PBS ---"
+echo "Nodo: $(hostname)"
+echo "Directory di lavoro: $PBS_O_WORKDIR"
+
+# 1. Carica i moduli necessari
+echo "Caricamento moduli..."
+module load gcc91
+module load likwid-4.3.4
+
+# 2. Vai alla directory di submit
+cd "$PBS_O_WORKDIR"
+
+# === PBS context & Topologia PRIMA dei run ===
+echo "=== PBS context ==="
+echo "JOBID=$PBS_JOBID  QUEUE=$PBS_QUEUE"
+echo "NODES=$PBS_NUM_NODES  PPN=$PBS_NUM_PPN  NP=$PBS_NP"
+if [ -f "$PBS_NODEFILE" ]; then
+  echo "--- PBS_NODEFILE (nodo x slot) ---"
+  sort "$PBS_NODEFILE" | uniq -c
+fi
+
+echo "=== Topologia CPU/NUMA del nodo ==="
+lscpu
+echo
+numactl --hardware
+echo "=== Fine topologia nodo ==="
+
+# 3. Avvia benchmark
+echo "Avvio benchmark_spmv_spread.sh..."
+./benchmark_spmv_spread.sh
+
+echo "--- Fine Job PBS ---"
